@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>A View from Space</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+<link rel="stylesheet" type="text/css" href="base.css" title="default" />
+</head>
+<body>
+
+<canvas id="interface"></canvas>
+<div id="container"></div>
+<div id="info">
+<div>
+<form name="dataset">
+<select name="dataset" onChange="AVfS.ChangeDataSet(this[this.selectedIndex].value)">
+<option value="default" selected>The Blue Marble</option>
+<option value="fire_20120321">Global Fire Map</option>
+<option value="asst_2003">Average Sea Surface Temperature 2003 </option>
+<option value="global_ecco2">Global Sea Surface Currents and Temperature</option>
+<option value="chlorophyll_2002">Global Chlorophyll Concentrations 2002</option>
+<option value="chlorophyll_2006">Global Chlorophyll Concentrations 2006</option>
+<option value="coud_fraction_201203">Cloud Fraction 03/01/2012 - 04/01/2012</option>
+<option value="forest_height_2012">Forest Height 2012</option>
+</select>
+</form>
+</div>
+<div id="indicator">
+  <p id="title"></p>
+  <p id="description"></p>
+  <p id="hour_angle" style="margin-top:2em"></p>
+  <p id="iss"></p>
+  <p id="sun"></p>
+  <p id="gl"></p>
+</div>
+</div>
+<canvas id="gltest" style="visibility:hidden"></canvas>
+<script src="./lib/three.js"></script>
+<script src="./lib/core.js"></script>
+<script src="./lib/satellite.js"></script>
+<script src="./lib/solarsystem.js"></script>
+<script src="./lib/avfs.js"></script>
+</body>
+</html>
