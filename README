@@ -1,0 +1,26 @@
+
+A View from Space
+http://www.lizard-tail.com/isana/avfs/
+
+Description
+----------
+Visualization of earth science data from the view point of iss
+
+3D Globe + Current position of International Space Station + Social Media
+
+The challenge is to develop a 3D satellite tracking system of International Space Station with mapped various earth science data and to share it via social media such as Twitter, Facebook, etc. The ISS is a "view point" to share with people all over the world, transcending national boundaries. Sharing one view point from space concurrently would be help us think of our planet together.
+
+This project is for the International Space Apps Challenge 2012
+http://spaceappschallenge.org/challenge/view-space/
+
+License
+----------
+Copyright (c) 2012 Isana Kashiwai
+Dual licensed under the MIT (MIT-LICENSE) and GPL (GPL-LICENSE) licenses.
+
+This application includes "three.js". 
+License: MIT License ref. https://github.com/mrdoob/three.js/
+
+"avfs.js" includes "json2.js" on the last part of the file.
+License: Public Domain ref. http://www.JSON.org/js.html
+
