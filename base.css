@@ -7,8 +7,9 @@ margin: 0px;
 overflow: hidden;
 }
 #interface{
-position: absolute;
+ position: absolute;
 }
+
 #info {
 position: absolute;
 top: 0px; width: 100%;
