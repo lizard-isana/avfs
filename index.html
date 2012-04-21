@@ -7,7 +7,8 @@
 <link rel="stylesheet" type="text/css" href="base.css" title="default" />
 </head>
 <body>
-<canvas id="interface"></canvas>
+<div id="contents_layer"></div>
+<canvas id="label_layer"></canvas>
 <div id="container"></div>
 <div id="info">
 <div>
@@ -31,6 +32,7 @@
   <p id="contents_mesh"></p>
 </div>
 </div>
+<div id="timeline" style="position:absolute;top:0;right:0;width:400px;margin:0 0 .5em 1em" ></div>
 <p id="message" style="position:absolute;bottom:0;margin:0 0 .5em 1em"></p>
 <canvas id="gltest" style="visibility:hidden"></canvas>
 <script src="./lib/three.js"></script>
