@@ -5,21 +5,15 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
 <link rel="stylesheet" type="text/css" href="base.css" title="default" />
-<script>
-var AVfS={};
-AVfS.tle = {
-    "first_line":  "1 25544U 98067A   12100.50728225  .00016717  00000-0  10270-3 0  9002",
-    "second_line": "2 25544  51.6397 106.1792 0007832 256.8916 103.1365 15.58165399  7318"
- }
-</script>
 </head>
 <body>
-<canvas id="interface"></canvas>
+<div id="contents_layer"></div>
+<canvas id="label_layer"></canvas>
 <div id="container"></div>
-<div id="info">
-<div>
+<div id="info" >
+<div  style="float:left">    
 <form name="dataset">
-<select name="dataset" onChange="AVfS.ChangeDataSet(this[this.selectedIndex].value)">
+Map: <select name="dataset" onChange="AVfS.ChangeDataSet(this[this.selectedIndex].value)">
 <option value="default" selected>The Blue Marble</option>
 <option value="fire_20120321">Global Fire Map</option>
 <option value="asst_2003">Average Sea Surface Temperature 2003 </option>
@@ -31,20 +25,35 @@ AVfS.tle = {
 </select>
 </form>
 </div>
-<div id="indicator">
+<!--
+<div>
+ <form name="plotting" style="margin-left:2em">
+ Plotting: <select name="plotting" onChange="AVfS.ChangePlotting(this[this.selectedIndex].value)">
+<option value="default" selected>User Posts</option>
+<option value="world_heritages">World Heritages</option>
+</select>
+</form>
+</div>
+-->
+<div id="indicator" style="clear:all">
   <p id="title"></p>
   <p id="description"></p>
-  <p id="hour_angle" style="margin-top:2em"></p>
   <p id="iss"></p>
-  <p id="sun"></p>
-  <p id="gl"></p>
+  <p id="contents_mesh"></p>
+
 </div>
 </div>
-<canvas id="gltest" style="visibility:hidden"></canvas>
+<div id="timeline" style="position:absolute;top:0;right:0;width:300px;margin:0 0 .5em 1em;height:80%; overflow:hidden"></div>
+<div id="tweet_box" style="position:absolute;bottom:0;right:0"></div>
+</div>
+<div id="message" style="position:absolute;bottom:0;left:0 ;margin:auto 0 .5em 1em"></div>
 <script src="./lib/three.js"></script>
 <script src="./lib/core.js"></script>
 <script src="./lib/satellite.js"></script>
 <script src="./lib/solarsystem.js"></script>
 <script src="./lib/avfs.js"></script>
+<script src="./lib/geolocation.js"></script>
+<script src="./lib/tweet.js"></script>
+<canvas id="gltest" style="visibility:hidden"></canvas>
 </body>
 </html>
