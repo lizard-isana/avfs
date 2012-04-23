@@ -11,15 +11,59 @@ AVfS.tle = {
     "first_line":  "1 25544U 98067A   12100.50728225  .00016717  00000-0  10270-3 0  9002",
     "second_line": "2 25544  51.6397 106.1792 0007832 256.8916 103.1365 15.58165399  7318"
  }
+ 
+AVfS.Contents ={
+"map_contents": {
+"default": [],
+"fire_20120321":[],
+"chlorophyll_2002":[],
+"asst_2003":[],
+"global_ecco2":[],
+"coud_fraction_201203":[],
+"forest_height_2012":[]
+},
+"region_contents": [
+{'region':[["N30","E60"],["S0","E60"]], "latitude":41.082424, "longitude":29.001932, "title": "Tsunami on Indean Ocean", "contents": 'Countries along with Indian Ocean have to cope with Tsunami led by big earthquake. NASA try to evaluate the damage by Satellite.  <a href="http://www.nasa.gov/vision/earth/lookingatearth/tsunami-images.html">See details...</a>'}
+],
+"point_contents" : {
+"spaceapps": {"title":"Space Apps Challenge", "description": "The International Space Apps Challenge is a 2 day technology development event during which citizens from around the world will work together to solve current challenges relevant to both space exploration and social need. The International Space Apps Challenge will take place on all seven continents – and in space - on 21-22 April 2012.", "maps":["all"], "points":[
+{"latitude":41.082424, "longitude":29.001932, "label": "Istanbul", "contents": "test"},
+{"latitude":32.083455, "longitude":34.790471, "label": "Tel Aviv", "contents": "test"},
+{"latitude":37.790455, "longitude":-122.416534, "label":"San Francisco", "contents": ""},
+{"latitude":40.016178, "longitude":-105.272799, "label": "Boulder", "contents": "test"},
+{"latitude":49.288803, "longitude":-123.12026, "label": "Vancouver", "contents": "test"},
+{"latitude":40.741079, "longitude":-73.994894, "label": "New York", "contents": "test"},
+{"latitude":45.485891, "longitude":-73.595695, "label": "Montreal", "contents": "test"},
+{"latitude":50.727281, "longitude":-3.475134, "label": "Exeter", "contents": "test"},
+{"latitude":51.635919, "longitude":-1.332092, "label": "Oxford", "contents": "test"},
+{"latitude":53.341527, "longitude":-6.268827, "label": "Dublin", "contents": "test"},
+{"latitude":46.541506, "longitude":6.539955, "label": "Lausanne", "contents": "test"},
+{"latitude":48.783455, "longitude":9.223022, "label": "Stuttgart", "contents": "test"},
+{"latitude":12.976624, "longitude":77.631111, "label": "Bangalore", "contents": "test"},
+{"latitude":35.908309, "longitude":139.93475, "label": "Tokyo", "contents": "test"},
+{"latitude":25.778561, "longitude":-80.379324, "label": "Miami", "contents": "test"},
+{"latitude":18.451685, "longitude":-69.662633, "label": "Santo Domingo", "contents": "test"},
+{"latitude":-6.221641, "longitude":106.809597, "label": "Jakarta", "contents": "test"},
+{"latitude":-23.521339, "longitude":-46.655416, "label": "Sao Paulo", "contents": "test"},
+{"latitude":-35.320938, "longitude":149.009221, "label": "Canberra", "contents": "test"},
+{"latitude":-37.702022, "longitude":144.948807, "label": "Melbourne", "contents": "test"},
+{"latitude":-34.921056, "longitude":138.592186, "label": "Adelaide", "contents": "test"},
+{"latitude":-33.898489, "longitude":151.232986, "label": "Sydney", "contents": "test"},
+{"latitude":-33.493844, "longitude":-70.603251, "label": "Santiago", "contents": "test"},
+{"latitude":-77.837726, "longitude":166.68663, "label": "Antartica/McMurdo Station", "contents": "test"}
+]} // end spaceapps,
+}
+} 
 </script>
 </head>
 <body>
-<canvas id="interface"></canvas>
+<div id="contents_layer"></div>
+<canvas id="label_layer"></canvas>
 <div id="container"></div>
-<div id="info">
-<div>
+<div id="info" >
+<div  style="float:left">    
 <form name="dataset">
-<select name="dataset" onChange="AVfS.ChangeDataSet(this[this.selectedIndex].value)">
+Map: <select name="dataset" onChange="AVfS.ChangeDataSet(this[this.selectedIndex].value)">
 <option value="default" selected>The Blue Marble</option>
 <option value="fire_20120321">Global Fire Map</option>
 <option value="asst_2003">Average Sea Surface Temperature 2003 </option>
@@ -31,19 +75,33 @@ AVfS.tle = {
 </select>
 </form>
 </div>
-<div id="indicator">
+<div>
+ <form name="plotting" style="margin-left:2em">
+ Plotting: <select name="plotting" onChange="AVfS.ChangePlotting(this[this.selectedIndex].value)">
+<option value="default" selected>User Posts</option>
+<option value="world_heritages">World Heritages</option>
+</select>
+</form>
+</div>
+<div id="indicator" style="clear:all">
   <p id="title"></p>
   <p id="description"></p>
   <p id="iss"></p>
   <p id="contents_mesh"></p>
+
 </div>
 </div>
-<p id="message" style="position:absolute;bottom:0;margin:0 0 .5em 1em"></p>
-<canvas id="gltest" style="visibility:hidden"></canvas>
+<div id="timeline" style="position:absolute;top:0;right:0;width:300px;margin:0 0 .5em 1em;height:80%; overflow:hidden"></div>
+<div id="tweet_box" style="position:absolute;bottom:0;right:0"></div>
+</div>
+<div id="message" style="position:absolute;bottom:0;left:0 ;margin:auto 0 .5em 1em"></div>
 <script src="./lib/three.js"></script>
 <script src="./lib/core.js"></script>
 <script src="./lib/satellite.js"></script>
 <script src="./lib/solarsystem.js"></script>
 <script src="./lib/avfs.js"></script>
+<script src="./lib/geolocation.js"></script>
+<script src="./lib/tweet.js"></script>
+<canvas id="gltest" style="visibility:hidden"></canvas>
 </body>
 </html>

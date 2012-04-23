@@ -6,7 +6,10 @@ background-color: #000;
 margin: 0px;
 overflow: hidden;
 }
-#interface{
+#label_layer{
+ position: absolute;
+}
+#contents_layer{
  position: absolute;
 }
 
