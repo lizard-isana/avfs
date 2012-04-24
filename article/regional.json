@@ -1,0 +1,21 @@
+{"Regional": [
+    {
+      "article_id":"indian_ocean_tsunami",
+      "map":["all"],
+      "theme":["all"],
+      "region":[["N30","E60"],["S0","E60"]], 
+      "latitude":41.082424,
+      "longitude":29.001932,
+      "title": "Tsunami on Indean Ocean",
+      "contents": "Countries along with Indian Ocean have to cope with Tsunami led by big earthquake. NASA try to evaluate the damage by Satellite.  <a href='http://www.nasa.gov/vision/earth/lookingatearth/tsunami-images.html'>See details...</a>"
+    },
+    {
+      "article_id":"coccolithophores_around_the_bering_sea",
+      "map":["all"],
+      "theme":["all"],
+      "region":[["N90","E150"], ["N90","W180"],["N60","E150"], ["N60","W180"]],
+      "latitude":58.722599, "longitude":-177.890625,
+      "title": "Tsunami on Indean Ocean",
+      "contents": "Countries along with Indian Ocean have to cope with Tsunami led by big earthquake. NASA try to evaluate the damage by Satellite.  <a href='http://www.nasa.gov/vision/earth/lookingatearth/tsunami-images.html'>See details...</a>"
+    }
+]} 
