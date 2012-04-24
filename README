@@ -1,8 +1,9 @@
 A View from Space
+======================
 http://www.lizard-tail.com/isana/avfs/
 
 Description
-----------
+----------------------
 “A View from Space is a web-based 3D satellite tracking application to share a view from Internatonal Space Station. 
 
 The functions are as follows: (not yet completed)
@@ -19,10 +20,11 @@ Nowadays, we can use many applications for tracking ISS, for monitoring the eart
        - Sultan bin Salman Al-Saud / Astronaut -
 
 Source Codes
+----------------------
 https://github.com/lizard-isana/avfs
 
 License
-----------
+----------------------
 Copyright (c) 2012 Internatonal Space Apps Challenge 2011 "A View from Space" Team
 Dual licensed under the MIT (MIT-LICENSE) and GPL (GPL-LICENSE) licenses.
 
@@ -37,7 +39,7 @@ License: Public Domain ref. http://www.JSON.org/js.html
 
 
 Contributor
-----------
+----------------------
 Internatonal Space Apps Challenge 2011 "A View from Space" Team
   Isana Kashiwai
   Tsugito Nagano
@@ -46,10 +48,14 @@ Internatonal Space Apps Challenge 2011 "A View from Space" Team
   Hiroshi Saito
   Hal Seki
   Tamon Yanai
-  (alphabetical order)
- 
+    (alphabetical order)
+
+Original concept and codes
+----------------------
+  Isana Kashiwai
+
 Administrator
-----
+----------------------
   Isana Kashiwai
   email: isana.k at gmail.com
   facebook: isana.kashiwai
