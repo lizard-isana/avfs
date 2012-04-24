@@ -25,14 +25,14 @@ https://github.com/lizard-isana/avfs
 
 License
 ----------------------
-Copyright (c) 2012 Internatonal Space Apps Challenge 2011 "A View from Space" Team
+Copyright (c) 2012 Isana Kashiwai and Internatonal Space Apps Challenge 2011 "A View from Space" Team
 Dual licensed under the MIT (MIT-LICENSE) and GPL (GPL-LICENSE) licenses.
 
 This application includes "three.js". 
 License: MIT License ref. https://github.com/mrdoob/three.js/
 
 This application includes "orb.js". 
-License: MIT & GPL Dual License ref. https://github.com/lizard-isana/orb.js
+License: MIT & GPL v3 Dual License ref. https://github.com/lizard-isana/orb.js
 
 "avfs.js" includes "json2.js" on the last part of the file.
 License: Public Domain ref. http://www.JSON.org/js.html
