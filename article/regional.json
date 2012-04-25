@@ -1,4 +1,5 @@
 {"Regional": [
+<<<<<<< HEAD
     {
       "article_id":"indian_ocean_tsunami",
       "map":["all"],
@@ -18,4 +19,82 @@
       "title": "Tsunami on Indean Ocean",
       "contents": "Countries along with Indian Ocean have to cope with Tsunami led by big earthquake. NASA try to evaluate the damage by Satellite.  <a href='http://www.nasa.gov/vision/earth/lookingatearth/tsunami-images.html'>See details...</a>"
     }
+=======
+  {
+    "article_id":"sea_ice_on_antarctica", 
+    "region":[["N60","E0"],["N60","E30"],["N60","E60"],["N60","E90"],["N60","E120"],["N60","E150"],["N60","W180"],["N60","W150"],["N60","W120"],["N60","W90"],["N60","W60"],["N60","W30"],["S30","E0"],["S30","E30"],["S30","E60"],["S30","E90"],["S30","E120"],["S30","E150"],["S30","W180"],["S30","W150"],["S30","W120"],["S30","W90"],["S30","W60"],["S30","W30"]], 
+    "latitude":-90,
+    "longitude":0,
+    "title": "Sea Ice on Antarctic",
+    "contents":"Monitoring Sea Ice on Arctic and Antarctic is a major application of satellite remote sensing. Many discussion are occurred about Antarctic sea-ice extent - it is seemed to be increased despite apparently the Arctic Sea-Ice is decreasing. <br/><img src='./img/antarctic_AMSRE_visual_small.jpg'><br/><a href='http://www.iup.uni-bremen.de:8084/amsr/' target='_blank'>See monitoring site</a>"
+  },
+  {
+    "article_id":"surprising_arctic_methane_emission_source",
+    "map":["all"],
+    "theme":["all"],
+    "region":[["N60","E0"],["N60","E30"],["N60","E60"],["N60","E90"],["N60","E120"],["N60","E150"],["N60","W180"],["N60","W150"],["N60","W120"],["N60","W90"],["N60","W60"],["N60","W30"],["S30","E0"],["S30","E30"],["S30","E60"],["S30","E90"],["S30","E120"],["S30","E150"],["S30","W180"],["S30","W150"],["S30","W120"],["S30","W90"],["S30","W60"],["S30","W30"]], 
+    "latitude":90,
+    "longitude":0,
+    "title": "Study Finds Surprising Arctic Methane Emission Source 04.22.12  (NASA)",
+    "contents": "A new airborne study with NASA contributions measured surprising levels of the potent greenhouse gas methane coming from cracks in Arctic sea ice and areas of partial sea ice cover. <br/><img src='./img/640892main_earth20120422-673.jpg'><br/><a href='http://www.nasa.gov/topics/earth/features/earth20120422.html' target='_blank'>See details...</a>"
+  },
+  {
+    "article_id":"indian_ocean_tsunami",
+    "map":["all"],
+    "theme":["all"],
+    "region":[["N30","E60"],["S0","E60"]], 
+    "latitude":41.082424,
+    "longitude":29.001932,
+    "title": "Tsunami on Indean Ocean",
+    "contents": "Countries along with Indian Ocean have to cope with Tsunami led by big earthquake. NASA try to evaluate the damage by Satellite.  <br/><a href='http://www.nasa.gov/vision/earth/lookingatearth/tsunami-images.html' target='_blank'>See details...</a>"
+  },
+  {
+  "article_id":"el_nino_pacific_ocean",
+  "region":[["N30", "E120"], ["N30", "E150"], ["N30", "W180"], ["N30", "W150"], ["N30", "W120"], ["S0", "E120"], ["S0", "E150"], ["S0", "W180"], ["S0", "W150"], ["S0", "W120"]], 
+  "latitude":-179,
+  "longitude":0, 
+  "title":"El Nino in Pacific Ocean", 
+  "contents":"El Nino is defined by prolonged differences in Pacific Ocean surface temperatures when compared with the average value. Therefore, monitoring Sea Suface Tempature in Pasific Ocen is very Important. <br/><img src='./img/el_nino_ocean_PIA01085.png' width='200'><br/><a href='http://www.jpl.nasa.gov/earth/ocean_motion/el_nino_index.cfm' target='_blank'>See details</a>"
+  },
+  {
+    "article_id":"coccolithophores_around_the_bering_sea",
+    "map":["all"],
+    "theme":["all"],
+    "region":[["N90","E150"], ["N90","W180"],["N60","E150"], ["N60","W180"]],
+    "latitude":58.722599, "longitude":-177.890625,
+    "title": "Tsunami on Indean Ocean",
+    "contents": "Countries along with Indian Ocean have to cope with Tsunami led by big earthquake. NASA try to evaluate the damage by Satellite. <br/> <a href='http://www.nasa.gov/vision/earth/lookingatearth/tsunami-images.html' target='_blank'>See details...</a>"
+  },
+  {
+    "article_id":"gulf_of_mexico_monitoring",
+    "region":[["N60","W90"],["N30","W90"]],
+    "latitude":30.202114, "longitude":-77.783203,
+    "title":"Gulf of Mexico Monitoring",
+    "contents":"International Efforts concentrate on monitoring Gulf of Mexico where many Hurricanes are occurred in every year. <a href='http://www.nasa.gov/mission_pages/hurricanes/archives/2012/h2012_90L.html' target='_blank'>See datails</a>"
+  },
+  {
+    "article_id":"wild_fire_in_kalimantan",
+    "region":[["N30", "E90"], ["S0", "E90"]],
+    "latitude":0.878872, "longitude":114.916992,
+    "title":"Wild fire in Kalimantan island",
+    "contents":"Monitoring wild fire is very important because it is big source of CO2 emission. Dr. Nakau explains his research to detect peat land fire in Kalimantan island by satellite.  <br/><img src\"./img/fire_in_kalimantan.jpg\"<br/><a href='./doc/nakau/index.html' target='_blank'>See details</a>"
+  },
+  {
+    "article_id":"glacier_lake_in_bhutan",
+    "region":[["N60", "E60"], ["N60", "E90"], ["N30", "E60"], ["N30", "E90"]],
+    "latitude":27.936181,
+    "longitude":90.373535,
+    "title":"Glacier Lake in the Bhutan",
+    "contents":"With a growing amount of public and scientific concern about hazards, climate change, and water management associated with Glacier Lake Outburst Floods (GLOF), the 'Bhutan GLOF Project' aims at updating and improving glacial lake inventory for Bhutan using new and high spatial resolution data from ALOS. <br/><img src='./img/pan_bhutan_v1203_01.jpg'><br/><a href='http://www.eorc.jaxa.jp/ALOS/en/bhutan_gli/index.htm' target='_blank'>See details</a>"
+  },
+  {
+    "article_id":"aurora_in_alaska",
+    "region":[["N90", "W180"], ["N90", "W150"], ["N60", "W180"], ["N60", "W150"]], 
+    "latitude":64.841057,
+    "longitude":-147.717361,
+    "title":"Aurora video from Alaska",
+    "contents":"This is a message from Fairbanks, Alaska! It is getting warmer and warmer also here in Alaska, telling us that spring has arrived. These days the sky around midnight is not dark, indicating that the aurora season is over. We should wait until the end of August to see the aurora next time. As you may know, Fairbanks is one of the best locations to see the aurora. Thanks to the recent enhanced solar activity, we sometimes see the spectacular aurora display as follows! <a href='http://youtu.be/8BC6flTOGSk' target='_blank'>See details</a>"
+  }
+
+>>>>>>> master
 ]} 

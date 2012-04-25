@@ -1,10 +1,10 @@
 body {
-color: #808080;
-font-family:Monospace;
-font-size:13px;
-background-color: #000;
-margin: 0px;
-overflow: hidden;
+  color: #808080;
+  font-family:'Lucida Grande', Verdana, Helvetica, sans-serif;
+  font-size:13px;
+  background-color: #000;
+  margin: 5px;
+  overflow: hidden;
 }
 #label_layer{
  position: absolute;

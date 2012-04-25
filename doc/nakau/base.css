@@ -1,0 +1,11 @@
+body {
+  color: #000;
+  font-family:'Lucida Grande', Verdana, Helvetica, sans-serif;
+  font-size:13px;
+  background-color: #fff;
+  margin: 5em;
+}
+
+a {
+color: #6699CC;
+}
