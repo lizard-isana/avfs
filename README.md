@@ -10,10 +10,10 @@ Nowadays, we can use many applications for tracking ISS, for monitoring the eart
 >By the fifth day, we were aware of only one Earth."  
 >Sultan bin Salman Al-Saud / Astronaut -  
 
-The functions are as follows: (not yet completed)
-1. Users can track the ISS from satellite-eyes-view.
-2. Users can change the base map from various satellite images(MODIS Sea Surface Temperature, Wild Fire etc…)
-3. Users can read the articles related to the current location of the ISS, selected map or selected theme.
+The functions are as follows: (not yet completed)  
+1. Users can track the ISS from satellite-eyes-view.  
+2. Users can change the base map from various satellite images(MODIS Sea Surface Temperature, Wild Fire etc…)  
+3. Users can read the articles related to the current location of the ISS, selected map or selected theme.  
 4. Users can communicate each other via Twitter, and plot it on the earth. It will be displayed only when ISS passes through the region nearby.
 
 ##Source Codes
@@ -35,17 +35,17 @@ License: Public Domain ref. http://www.JSON.org/js.html
 
 ##Contributor
 Internatonal Space Apps Challenge 2011 "A View from Space" Team
-* Isana Kashiwai
-* Tsugito Nagano
-* Rie Nakajima
-* Takayuki Narabu
-* Hiroshi Saito
-* Hal Seki
-* Tamon Yanai
+Isana Kashiwai  
+Tsugito Nagano  
+Rie Nakajima  
+Takayuki Narabu  
+Hiroshi Saito  
+Hal Seki  
+Tamon Yanai  
 (alphabetical order)
 
 ###Original Consept and Codes
-* Isana Kashiwai
+Isana Kashiwai
 
  
  
