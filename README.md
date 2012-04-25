@@ -40,18 +40,18 @@ License: Public Domain ref. http://www.JSON.org/js.html
 Contributor
 -------------
 Internatonal Space Apps Challenge 2011 "A View from Space" Team
--Isana Kashiwai
--Tsugito Nagano
--Rie Nakajima
--Takayuki Narabu
--Hiroshi Saito
--Hal Seki
--Tamon Yanai
-(alphabetical order)
+ -Isana Kashiwai
+ -Tsugito Nagano
+ -Rie Nakajima
+ -Takayuki Narabu
+ -Hiroshi Saito
+ -Hal Seki
+ -Tamon Yanai
+ (alphabetical order)
  
 Administrator
 -------------
--Isana Kashiwai
-email: isana.k at gmail.com
-facebook: isana.kashiwai
-twitter: lizard_isana
+ -Isana Kashiwai
+ email: isana.k at gmail.com
+ facebook: isana.kashiwai
+ twitter: lizard_isana
