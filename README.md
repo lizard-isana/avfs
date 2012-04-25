@@ -20,7 +20,7 @@ The functions are as follows: (not yet completed)
 https://github.com/lizard-isana/avfs
 
 ##License
-Copyright (c) 2012 Internatonal Space Apps Challenge 2011 "A View from Space" Team  
+Copyright (c) 2012 Isana Kashiwai & Internatonal Space Apps Challenge 2011 "A View from Space" Team  
 Dual licensed under the MIT (MIT-LICENSE) and GPL (GPL-LICENSE) licenses.
 
 This application includes "three.js".   
