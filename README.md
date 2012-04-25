@@ -10,7 +10,7 @@ Nowadays, we can use many applications for tracking ISS, for monitoring the eart
 "The first day or so we all pointed to our countries. 
  The third or fourth day we were pointing to our continents.
  By the fifth day, we were aware of only one Earth."
- - Sultan bin Salman Al-Saud / Astronaut -
+ Sultan bin Salman Al-Saud / Astronaut -
 
 The functions are as follows: (not yet completed)
 Users can track the ISS from satellite-eyes-view.
@@ -40,18 +40,18 @@ License: Public Domain ref. http://www.JSON.org/js.html
 Contributor
 -------------
 Internatonal Space Apps Challenge 2011 "A View from Space" Team
-  Isana Kashiwai
-  Tsugito Nagano
-  Rie Nakajima
-  Takayuki Narabu
-  Hiroshi Saito
-  Hal Seki
-  Tamon Yanai
-  (alphabetical order)
+-Isana Kashiwai
+-Tsugito Nagano
+-Rie Nakajima
+-Takayuki Narabu
+-Hiroshi Saito
+-Hal Seki
+-Tamon Yanai
+(alphabetical order)
  
 Administrator
 -------------
-  Isana Kashiwai
-  email: isana.k at gmail.com
-  facebook: isana.kashiwai
-  twitter: lizard_isana
+-Isana Kashiwai
+email: isana.k at gmail.com
+facebook: isana.kashiwai
+twitter: lizard_isana
