@@ -1,25 +1,4 @@
 {"Regional": [
-<<<<<<< HEAD
-    {
-      "article_id":"indian_ocean_tsunami",
-      "map":["all"],
-      "theme":["all"],
-      "region":[["N30","E60"],["S0","E60"]], 
-      "latitude":41.082424,
-      "longitude":29.001932,
-      "title": "Tsunami on Indean Ocean",
-      "contents": "Countries along with Indian Ocean have to cope with Tsunami led by big earthquake. NASA try to evaluate the damage by Satellite.  <a href='http://www.nasa.gov/vision/earth/lookingatearth/tsunami-images.html'>See details...</a>"
-    },
-    {
-      "article_id":"coccolithophores_around_the_bering_sea",
-      "map":["all"],
-      "theme":["all"],
-      "region":[["N90","E150"], ["N90","W180"],["N60","E150"], ["N60","W180"]],
-      "latitude":58.722599, "longitude":-177.890625,
-      "title": "Tsunami on Indean Ocean",
-      "contents": "Countries along with Indian Ocean have to cope with Tsunami led by big earthquake. NASA try to evaluate the damage by Satellite.  <a href='http://www.nasa.gov/vision/earth/lookingatearth/tsunami-images.html'>See details...</a>"
-    }
-=======
   {
     "article_id":"sea_ice_on_antarctica", 
     "region":[["N60","E0"],["N60","E30"],["N60","E60"],["N60","E90"],["N60","E120"],["N60","E150"],["N60","W180"],["N60","W150"],["N60","W120"],["N60","W90"],["N60","W60"],["N60","W30"],["S30","E0"],["S30","E30"],["S30","E60"],["S30","E90"],["S30","E120"],["S30","E150"],["S30","W180"],["S30","W150"],["S30","W120"],["S30","W90"],["S30","W60"],["S30","W30"]], 
@@ -46,7 +25,7 @@
     "latitude":41.082424,
     "longitude":29.001932,
     "title": "Tsunami on Indean Ocean",
-    "contents": "Countries along with Indian Ocean have to cope with Tsunami led by big earthquake. NASA try to evaluate the damage by Satellite.  <br/><a href='http://www.nasa.gov/vision/earth/lookingatearth/tsunami-images.html' target='_blank'>See details...</a>"
+    "contents": "Countries along with Indian Ocean have to cope with Tsunami led by big earthquake. NASA try to evaluate the damage by Satellite.<br/> <img src='./img/106168main_pia04372-516' width='256'><br/> <a href='http://www.nasa.gov/vision/earth/lookingatearth/tsunami-images.html' target='_blank'>See details...</a>"
   },
   {
   "article_id":"el_nino_pacific_ocean",
@@ -96,5 +75,4 @@
     "contents":"This is a message from Fairbanks, Alaska! It is getting warmer and warmer also here in Alaska, telling us that spring has arrived. These days the sky around midnight is not dark, indicating that the aurora season is over. We should wait until the end of August to see the aurora next time. As you may know, Fairbanks is one of the best locations to see the aurora. Thanks to the recent enhanced solar activity, we sometimes see the spectacular aurora display as follows! <a href='http://youtu.be/8BC6flTOGSk' target='_blank'>See details</a>"
   }
 
->>>>>>> master
 ]} 

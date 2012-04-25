@@ -21,6 +21,10 @@ height:100%
 padding: 5px;
 }
 
+#article img{
+margin: 0.5em auto 0.5em auto;
+}
+
 a {
 color: #6699CC;
 }
