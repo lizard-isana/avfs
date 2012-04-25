@@ -13,14 +13,16 @@
 <div  style="float:left">    
 <form name="dataset">
 Map: <select name="dataset" onChange="AVfS.ChangeDataSet(this[this.selectedIndex].value)">
-<option value="default" selected>The Blue Marble</option>
-<option value="fire_20120321">Global Fire Map</option>
-<option value="asst_2003">Average Sea Surface Temperature 2003 </option>
-<option value="global_ecco2">Global Sea Surface Currents and Temperature</option>
-<option value="chlorophyll_2002">Global Chlorophyll Concentrations 2002</option>
-<!--<option value="chlorophyll_2006">Global Chlorophyll Concentrations 2006</option>-->
-<option value="coud_fraction_201203">Cloud Fraction 03/01/2012 - 04/01/2012</option>
-<option value="forest_height_2012">Forest Height 2012</option>
+<option value="default" name="default" selected>The Blue Marble</option>
+<option value="global_ecco2" name="global_ecco2">Global Sea Surface Currents and Temperature</option>
+<option value="asst_2003" name="asst_2003">Average Sea Surface Temperature 2003 </option>
+<option value="land_surface_temperature_day_201202" name="land_surface_temperature_day_201202">Land Surface Temperature [Day] 2012.02</option>
+<option value="land_surface_temperature_night_201202" name="land_surface_temperature_night_201202">Land Surface Temperature [Night] 2012.02 </option>
+<option value="chlorophyll_2002" name="chlorophyll_2002">Global Chlorophyll Concentrations 2002</option>
+<option value="coud_fraction_201203" name="coud_fraction_201203">Cloud Fraction 03/01/2012 - 04/01/2012</option>
+<option value="forest_height_2012" name="forest_height_2012">Forest Height 2012</option>
+<option value="fire_20120321" name="fire_20120321">Global Fire Map</option>
+<option value="population_density_2000" name="population_density_2000">Population Density 2000</option>
 </select>
 </form>
 </div>
@@ -35,11 +37,10 @@ Map: <select name="dataset" onChange="AVfS.ChangeDataSet(this[this.selectedIndex
 </div>
 -->
 <div id="indicator" style="clear:all;width:300px">
-  <p id="title"></p>
-  <p id="description"></p>
-  <p id="iss"></p>
-  <p id="article"></p>
-
+  <div id="title"></div>
+  <div id="description"></div>
+  <div id="iss" style="margin-top:1em"></div>
+  <div id="article" style="margin-top:1em"></div>
 </div>
 </div>
 <div id="timeline" style="position:absolute;top:0;right:0;width:300px;margin:0 0 .5em 1em;height:80%; overflow:hidden"></div>
