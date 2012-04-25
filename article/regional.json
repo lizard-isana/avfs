@@ -5,7 +5,7 @@
     "latitude":-90,
     "longitude":0,
     "title": "Sea Ice on Antarctic",
-    "contents":"Monitoring Sea Ice on Arctic and Antarctic is a major application of satellite remote sensing. Many discussion are occurred about Antarctic sea-ice extent - it is seemed to be increased despite apparently the Arctic Sea-Ice is decreasing. <br/><a href='http://www.iup.uni-bremen.de:8084/amsr/' target='_blank'>See monitoring site</a>"
+    "contents":"Monitoring Sea Ice on Arctic and Antarctic is a major application of satellite remote sensing. Many discussion are occurred about Antarctic sea-ice extent - it is seemed to be increased despite apparently the Arctic Sea-Ice is decreasing. <br/><img src='./img/antarctic_AMSRE_visual_small.jpg'><br/><a href='http://www.iup.uni-bremen.de:8084/amsr/' target='_blank'>See monitoring site</a>"
   },
   {
     "article_id":"surprising_arctic_methane_emission_source",
@@ -14,8 +14,8 @@
     "region":[["N60","E0"],["N60","E30"],["N60","E60"],["N60","E90"],["N60","E120"],["N60","E150"],["N60","W180"],["N60","W150"],["N60","W120"],["N60","W90"],["N60","W60"],["N60","W30"],["S30","E0"],["S30","E30"],["S30","E60"],["S30","E90"],["S30","E120"],["S30","E150"],["S30","W180"],["S30","W150"],["S30","W120"],["S30","W90"],["S30","W60"],["S30","W30"]], 
     "latitude":90,
     "longitude":0,
-    "title": "Study Finds Surprising Arctic Methane Emission Source 04.22.12",
-    "contents": "A new airborne study with NASA contributions measured surprising levels of the potent greenhouse gas methane coming from cracks in Arctic sea ice and areas of partial sea ice cover. <br/><a href='http://www.nasa.gov/topics/earth/features/earth20120422.html' target='_blank'>See details...</a> (NASA)"
+    "title": "Study Finds Surprising Arctic Methane Emission Source 04.22.12  (NASA)",
+    "contents": "A new airborne study with NASA contributions measured surprising levels of the potent greenhouse gas methane coming from cracks in Arctic sea ice and areas of partial sea ice cover. <br/><img src='./img/640892main_earth20120422-673.jpg'><br/><a href='http://www.nasa.gov/topics/earth/features/earth20120422.html' target='_blank'>See details...</a>"
   },
   {
     "article_id":"indian_ocean_tsunami",
@@ -33,7 +33,7 @@
   "latitude":-179,
   "longitude":0, 
   "title":"El Nino in Pacific Ocean", 
-  "contents":"El Nino is defined by prolonged differences in Pacific Ocean surface temperatures when compared with the average value. Therefore, monitoring Sea Suface Tempature in Pasific Ocen is very Important. <a href='http://www.jpl.nasa.gov/earth/ocean_motion/el_nino_index.cfm' target='_blank'>See details</a>"
+  "contents":"El Nino is defined by prolonged differences in Pacific Ocean surface temperatures when compared with the average value. Therefore, monitoring Sea Suface Tempature in Pasific Ocen is very Important. <br/><img src='./img/el_nino_ocean_PIA01085.png' width='200'><br/><a href='http://www.jpl.nasa.gov/earth/ocean_motion/el_nino_index.cfm' target='_blank'>See details</a>"
   },
   {
     "article_id":"coccolithophores_around_the_bering_sea",
@@ -56,7 +56,7 @@
     "region":[["N30", "E90"], ["S0", "E90"]],
     "latitude":0.878872, "longitude":114.916992,
     "title":"Wild fire in Kalimantan island",
-    "contents":"Monitoring wild fire is very important because it is big source of CO2 emission. Dr. Nakau explains his research to detect peat land fire in Kalimantan island by satellite.  <br/><a href='./doc/nakau/index.html' target='_blank'>See details</a>'"
+    "contents":"Monitoring wild fire is very important because it is big source of CO2 emission. Dr. Nakau explains his research to detect peat land fire in Kalimantan island by satellite.  <br/><img src\"./img/fire_in_kalimantan.jpg\"<br/><a href='./doc/nakau/index.html' target='_blank'>See details</a>"
   },
   {
     "article_id":"glacier_lake_in_bhutan",
@@ -64,7 +64,7 @@
     "latitude":27.936181,
     "longitude":90.373535,
     "title":"Glacier Lake in the Bhutan",
-    "contents":"With a growing amount of public and scientific concern about hazards, climate change, and water management associated with Glacier Lake Outburst Floods (GLOF), the 'Bhutan GLOF Project' aims at updating and improving glacial lake inventory for Bhutan using new and high spatial resolution data from ALOS. <a href='http://www.eorc.jaxa.jp/ALOS/en/bhutan_gli/index.htm' target='_blank'>See details</a>"
+    "contents":"With a growing amount of public and scientific concern about hazards, climate change, and water management associated with Glacier Lake Outburst Floods (GLOF), the 'Bhutan GLOF Project' aims at updating and improving glacial lake inventory for Bhutan using new and high spatial resolution data from ALOS. <br/><img src='./img/pan_bhutan_v1203_01.jpg'><br/><a href='http://www.eorc.jaxa.jp/ALOS/en/bhutan_gli/index.htm' target='_blank'>See details</a>"
   },
   {
     "article_id":"aurora_in_alaska",
