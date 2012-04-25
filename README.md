@@ -1,20 +1,20 @@
 #A View from Space
 http://www.lizard-tail.com/isana/avfs/
 
-“A View from Space is a web-based 3D satellite tracking application to share a view from Internatonal Space Station. 
+"A View from Space" is a web-based 3D satellite tracking system of International Space Station with mapped various earth science data and to share it via social media. The ISS is a "view point" to share with people all over the world, transcending national boundaries. Sharing one view point from space concurrently would be help us think of our planet together.
+
+The functions are as follows: (not yet completed)  
+1. Users can track the ISS from satellite-eyes-view.  
+2. Users can change the base map from various satellite images(MODIS Sea Surface Temperature, Wild Fire etc…)  
+3. Users can read the articles related to the current location of the ISS (Everybody sees same article at a time)  
+4. Users can communicate each other via Twitter, and plot it on the earth. It will be displayed only when ISS passes through the region nearby.
 
 Nowadays, we can use many applications for tracking ISS, for monitoring the earth and for reading the articles about global issues. However, “A View from Space” is a unique because it restricts the information stream based on the orbit of ISS intentionally. The purpose of this restriction is to encourage users to share a common viewpoint which is organized by borderless rule - the orbit of ISS – it is equally fair for the people living on the earth. We believe sharing this unique view around the world will be a platform to enhance the common understanding among the people on the earth. Of course, we hope it will become an agora to communicate with the astronauts in ISS virtually.
 
 >The first day or so we all pointed to our countries.  
 >The third or fourth day we were pointing to our continents.  
->By the fifth day, we were aware of only one Earth."  
-Sultan bin Salman Al-Saud / Astronaut
-
-The functions are as follows: (not yet completed)  
-1. Users can track the ISS from satellite-eyes-view.  
-2. Users can change the base map from various satellite images(MODIS Sea Surface Temperature, Wild Fire etc…)  
-3. Users can read the articles related to the current location of the ISS, selected map or selected theme.  
-4. Users can communicate each other via Twitter, and plot it on the earth. It will be displayed only when ISS passes through the region nearby.
+>By the fifth day, we were aware of only one Earth.  
+Sultan bin Salman Al-Saud / Astronaut  
 
 ##Source Codes
 https://github.com/lizard-isana/avfs
