@@ -2,8 +2,6 @@
   {
     "article_id":"sea_ice_on_antarctica", 
     "region":[["N60","E0"],["N60","E30"],["N60","E60"],["N60","E90"],["N60","E120"],["N60","E150"],["N60","W180"],["N60","W150"],["N60","W120"],["N60","W90"],["N60","W60"],["N60","W30"],["S30","E0"],["S30","E30"],["S30","E60"],["S30","E90"],["S30","E120"],["S30","E150"],["S30","W180"],["S30","W150"],["S30","W120"],["S30","W90"],["S30","W60"],["S30","W30"]], 
-    "latitude":-90,
-    "longitude":0,
     "title": "Sea Ice on Antarctic",
     "contents":"Monitoring Sea Ice on Arctic and Antarctic is a major application of satellite remote sensing. Many discussion are occurred about Antarctic sea-ice extent - it is seemed to be increased despite apparently the Arctic Sea-Ice is decreasing. <br/><img src='./img/antarctic_AMSRE_visual_small.jpg'><br/><a href='http://www.iup.uni-bremen.de:8084/amsr/' target='_blank'>See monitoring site</a>"
   },
@@ -12,8 +10,6 @@
     "map":["all"],
     "theme":["all"],
     "region":[["N60","E0"],["N60","E30"],["N60","E60"],["N60","E90"],["N60","E120"],["N60","E150"],["N60","W180"],["N60","W150"],["N60","W120"],["N60","W90"],["N60","W60"],["N60","W30"],["S30","E0"],["S30","E30"],["S30","E60"],["S30","E90"],["S30","E120"],["S30","E150"],["S30","W180"],["S30","W150"],["S30","W120"],["S30","W90"],["S30","W60"],["S30","W30"]], 
-    "latitude":90,
-    "longitude":0,
     "title": "Study Finds Surprising Arctic Methane Emission Source 04.22.12  (NASA)",
     "contents": "A new airborne study with NASA contributions measured surprising levels of the potent greenhouse gas methane coming from cracks in Arctic sea ice and areas of partial sea ice cover. <br/><img src='./img/640892main_earth20120422-673.jpg'><br/><a href='http://www.nasa.gov/topics/earth/features/earth20120422.html' target='_blank'>See details...</a>"
   },
@@ -22,17 +18,19 @@
     "map":["all"],
     "theme":["all"],
     "region":[["N30","E60"],["S0","E60"]], 
-    "latitude":41.082424,
-    "longitude":29.001932,
-    "title": "Tsunami on Indean Ocean",
+    "plot":[
+      {"latitude":17.688378, "longitude":83.218758, "label":"Tsunami on Indean Ocean", "contents":"<img src='./img/106168main_pia04372-516' width='150'>"}
+      ],
+    "title": "Tsunami on Indean Ocean (NASA)",
     "contents": "Countries along with Indian Ocean have to cope with Tsunami led by big earthquake. NASA try to evaluate the damage by Satellite.<br/> <img src='./img/106168main_pia04372-516' width='256'><br/> <a href='http://www.nasa.gov/vision/earth/lookingatearth/tsunami-images.html' target='_blank'>See details...</a>"
   },
   {
   "article_id":"el_nino_pacific_ocean",
-  "region":[["N30", "E120"], ["N30", "E150"], ["N30", "W180"], ["N30", "W150"], ["N30", "W120"], ["S0", "E120"], ["S0", "E150"], ["S0", "W180"], ["S0", "W150"], ["S0", "W120"]], 
-  "latitude":-179,
-  "longitude":0, 
-  "title":"El Nino in Pacific Ocean", 
+  "region":[ ["N30", "W120"], ["S0", "W120"],["S0", "W90"]], 
+    "plot":[
+       {"latitude":-7.188101, "longitude":-95.95459, "label":"El Nino in Pacific Ocean", "contents":"<img src='./img/el_nino_ocean_PIA01085.png' width='150'>"}
+     ],
+  "title":"El Nino in Pacific Ocean (NASA)", 
   "contents":"El Nino is defined by prolonged differences in Pacific Ocean surface temperatures when compared with the average value. Therefore, monitoring Sea Suface Tempature in Pasific Ocen is very Important. <br/><img src='./img/el_nino_ocean_PIA01085.png' width='200'><br/><a href='http://www.jpl.nasa.gov/earth/ocean_motion/el_nino_index.cfm' target='_blank'>See details</a>"
   },
   {
@@ -40,39 +38,56 @@
     "map":["all"],
     "theme":["all"],
     "region":[["N90","E150"], ["N90","W180"],["N60","E150"], ["N60","W180"]],
-    "latitude":58.722599, "longitude":-177.890625,
-    "title": "Tsunami on Indean Ocean",
-    "contents": "Countries along with Indian Ocean have to cope with Tsunami led by big earthquake. NASA try to evaluate the damage by Satellite. <br/> <a href='http://www.nasa.gov/vision/earth/lookingatearth/tsunami-images.html' target='_blank'>See details...</a>"
+    "plot":[
+      {"latitude":58.470721, "longitude":-163.168945, "label":"Coccolithophore Bloom", "contents":"<img src='./img/bering_bloom_2000.jpg' width='150'>"}
+      ],
+    "title": "New Coccolithophore Bloom in Bering Sea(NASA)",
+    "contents": "From 1997,a bloom of coccolithophores became to be emerged around the Bering Sea. The cause and effect of this misterious phenomina is still unknown. <br/><img src='./img/bering_bloom_2000.jpg'><br/><a href='http://earthobservatory.nasa.gov/IOTD/view.php?id=588'>See details</a>"
   },
   {
     "article_id":"gulf_of_mexico_monitoring",
     "region":[["N60","W90"],["N30","W90"]],
-    "latitude":30.202114, "longitude":-77.783203,
+    "plot":[
+      {"latitude":30.202114, "longitude":-77.783203, "label":"Gulf of Mexico", "contents":""}
+      ],
     "title":"Gulf of Mexico Monitoring",
     "contents":"International Efforts concentrate on monitoring Gulf of Mexico where many Hurricanes are occurred in every year. <a href='http://www.nasa.gov/mission_pages/hurricanes/archives/2012/h2012_90L.html' target='_blank'>See datails</a>"
   },
   {
     "article_id":"wild_fire_in_kalimantan",
     "region":[["N30", "E90"], ["S0", "E90"]],
-    "latitude":0.878872, "longitude":114.916992,
+    "plot":[
+      {"latitude":0.878872, "longitude":114.916992, "label":"Wild fire in Kalimantan island", "contents":"<img src='./img/fire_in_kalimantan.jpg' width='150'>"}
+    ],
     "title":"Wild fire in Kalimantan island",
-    "contents":"Monitoring wild fire is very important because it is big source of CO2 emission. Dr. Nakau explains his research to detect peat land fire in Kalimantan island by satellite.  <br/><img src\"./img/fire_in_kalimantan.jpg\"<br/><a href='./doc/nakau/index.html' target='_blank'>See details</a>"
+    "contents":"Monitoring wild fire is very important because it is big source of CO2 emission. Dr. Nakau explains his research to detect peat land fire in Kalimantan island by satellite.  <br/><img src='./img/fire_in_kalimantan.jpg'><br/><a href='./doc/nakau/index.html' target='_blank'>See details</a>"
   },
   {
     "article_id":"glacier_lake_in_bhutan",
     "region":[["N60", "E60"], ["N60", "E90"], ["N30", "E60"], ["N30", "E90"]],
-    "latitude":27.936181,
-    "longitude":90.373535,
-    "title":"Glacier Lake in the Bhutan",
+    "plot":[
+      {"latitude":27.936181, "longitude":90.373535, "label":"Glacier Lake in the Bhutan", "contents":"<img src='./img/pan_bhutan_v1203_01.jpg' width='150'>"}
+    ],
+    "title":"Glacier Lake in the Bhutan (JAXA)",
     "contents":"With a growing amount of public and scientific concern about hazards, climate change, and water management associated with Glacier Lake Outburst Floods (GLOF), the 'Bhutan GLOF Project' aims at updating and improving glacial lake inventory for Bhutan using new and high spatial resolution data from ALOS. <br/><img src='./img/pan_bhutan_v1203_01.jpg'><br/><a href='http://www.eorc.jaxa.jp/ALOS/en/bhutan_gli/index.htm' target='_blank'>See details</a>"
+  },
+  {
+    "article_id":"fires_blaze_north_of_omsk",
+    "region":[["N60", "E30"],["N60", "E60"]],
+    "plot":[
+      {"latitude":54.983333, "longitude":73.366667, "label":"Fires Blaze North of Omsk", "contents":"<img src='./img/russia_2012115.jpg' width='150'>"}
+    ],
+    "title":"Fires Blaze North of Omsk : April 24, 2012 (NASA/Earth Observatory)",
+    "contents":"April usually brings a sharp increase in fire activity throughout Central Asia, as farmers begin to prep their fields for the coming season. This year is no exception.<br/><img src='./img/russia_2012115.jpg'><br/><a href='http://earthobservatory.nasa.gov/IOTD/view.php?id=77763' target='_blank'>See details</a>"
   },
   {
     "article_id":"aurora_in_alaska",
     "region":[["N90", "W180"], ["N90", "W150"], ["N60", "W180"], ["N60", "W150"]], 
-    "latitude":64.841057,
-    "longitude":-147.717361,
+    "plot":[
+      {"latitude":58.470721, "longitude":-163.168945, "label":"Aurora video from Alaska", "contents":"<img src='coronal_aurora_over_fairbanks.jpg' width='150'>"}
+    ],
     "title":"Aurora video from Alaska",
-    "contents":"This is a message from Fairbanks, Alaska! It is getting warmer and warmer also here in Alaska, telling us that spring has arrived. These days the sky around midnight is not dark, indicating that the aurora season is over. We should wait until the end of August to see the aurora next time. As you may know, Fairbanks is one of the best locations to see the aurora. Thanks to the recent enhanced solar activity, we sometimes see the spectacular aurora display as follows! <a href='http://youtu.be/8BC6flTOGSk' target='_blank'>See details</a>"
+    "contents":"This is a message from Fairbanks, Alaska! It is getting warmer and warmer also here in Alaska, telling us that spring has arrived. These days the sky around midnight is not dark, indicating that the aurora season is over. We should wait until the end of August to see the aurora next time. As you may know, Fairbanks is one of the best locations to see the aurora. Thanks to the recent enhanced solar activity, we sometimes see the spectacular aurora display as follows! (Taro Nakai)<br/><img src='coronal_aurora_over_fairbanks.jpg'><br/> <a href='http://youtu.be/8BC6flTOGSk' target='_blank'>See details</a>"
   }
 
 ]} 

@@ -6,46 +6,47 @@
 <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
 <link rel="stylesheet" type="text/css" href="base.css" title="default" />
 <body>
-<canvas id="label_layer" style="zIndex:1000"></canvas>
-<div id="contents_layer" style="zIndex:100"></div>
-<div id="container"></div>
-<div id="info" >
-<div  style="float:left">    
-<form name="dataset">
-Map: <select name="dataset" onChange="AVfS.ChangeDataSet(this[this.selectedIndex].value)">
-<option value="default" name="default" selected>The Blue Marble</option>
-<option value="global_ecco2" name="global_ecco2">Global Sea Surface Currents and Temperature</option>
-<option value="asst_2003" name="asst_2003">Average Sea Surface Temperature 2003 </option>
-<option value="land_surface_temperature_day_201202" name="land_surface_temperature_day_201202">Land Surface Temperature [Day] 2012.02</option>
-<option value="land_surface_temperature_night_201202" name="land_surface_temperature_night_201202">Land Surface Temperature [Night] 2012.02 </option>
-<option value="chlorophyll_2002" name="chlorophyll_2002">Global Chlorophyll Concentrations 2002</option>
-<option value="coud_fraction_201203" name="coud_fraction_201203">Cloud Fraction 03/01/2012 - 04/01/2012</option>
-<option value="forest_height_2012" name="forest_height_2012">Forest Height 2012</option>
-<option value="fire_20120321" name="fire_20120321">Global Fire Map</option>
-<option value="population_density_2000" name="population_density_2000">Population Density 2000</option>
-</select>
-</form>
+<div id="info" style="z-index:3000" >
+  <div  style="float:left">    
+    <form name="dataset">
+    Map: <select name="dataset" onChange="AVfS.ChangeDataSet(this[this.selectedIndex].value)">
+    <option value="default" name="default" selected>The Blue Marble</option>
+    <option value="global_ecco2" name="global_ecco2">Global Sea Surface Currents and Temperature</option>
+    <option value="asst_2003" name="asst_2003">Average Sea Surface Temperature 2003 </option>
+    <option value="land_surface_temperature_day_201202" name="land_surface_temperature_day_201202">Land Surface Temperature [Day] 2012.02</option>
+    <option value="land_surface_temperature_night_201202" name="land_surface_temperature_night_201202">Land Surface Temperature [Night] 2012.02 </option>
+    <option value="chlorophyll_2002" name="chlorophyll_2002">Global Chlorophyll Concentrations 2002</option>
+    <option value="coud_fraction_201203" name="coud_fraction_201203">Cloud Fraction 03/01/2012 - 04/01/2012</option>
+    <option value="forest_height_2012" name="forest_height_2012">Forest Height 2012</option>
+    <option value="fire_20120321" name="fire_20120321">Global Fire Map</option>
+    <option value="population_density_2000" name="population_density_2000">Population Density 2000</option>
+    </select>
+    </form>
+  </div>
+  <!--
+  <div>
+     <form name="plotting" style="margin-left:2em">
+     Plotting: <select name="plotting" onChange="AVfS.ChangePlotting(this[this.selectedIndex].value)">
+    <option value="default" selected>User Posts</option>
+    <option value="world_heritages">World Heritages</option>
+    </select>
+    </form>
+  </div>
+  -->
+  <div id="indicator" style="clear:all;width:300px">
+    <div id="title"></div>
+    <div id="description"></div>
+    <div id="iss" style="margin-top:1em"></div>
+    <div id="article" style="margin-top:1em"></div>
+  </div>
 </div>
-<!--
-<div>
- <form name="plotting" style="margin-left:2em">
- Plotting: <select name="plotting" onChange="AVfS.ChangePlotting(this[this.selectedIndex].value)">
-<option value="default" selected>User Posts</option>
-<option value="world_heritages">World Heritages</option>
-</select>
-</form>
-</div>
--->
-<div id="indicator" style="clear:all;width:300px">
-  <div id="title"></div>
-  <div id="description"></div>
-  <div id="iss" style="margin-top:1em"></div>
-  <div id="article" style="margin-top:1em"></div>
-</div>
-</div>
-<div id="timeline" style="position:absolute;top:0;right:0;width:300px;margin:0 0 .5em 1em;height:80%; overflow:hidden"></div>
-<div id="tweet_box" style="position:absolute;bottom:0;right:0"></div>
-</div>
+
+<div id="timeline" style="position:absolute;top:0;right:0;width:300px;margin:0 0 .5em 1em;height:80%; overflow:hidden;z-index:2100"></div>
+<div id="tweet_box" style="position:absolute;bottom:0;right:0;z-index:2000"></div>
+
+<div id="label_container"><canvas id="label_layer"></canvas></div style="1000">
+<div id="contents_layer" style="z-index:100"></div>
+<div id="container" style="z-index:10"></div>
 <div id="message" style="position:absolute;bottom:0;left:0 ;margin:auto 0 .5em 1em"></div>
 <script src="./lib/three.js"></script>
 <script src="./lib/core.js"></script>
