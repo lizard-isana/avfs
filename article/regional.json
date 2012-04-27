@@ -81,13 +81,22 @@
     "contents":"April usually brings a sharp increase in fire activity throughout Central Asia, as farmers begin to prep their fields for the coming season. This year is no exception.<br/><img src='./img/russia_2012115.jpg'><br/><a href='http://earthobservatory.nasa.gov/IOTD/view.php?id=77763' target='_blank'>See details</a>"
   },
   {
+    "article_id":"activity_at_popocatepetl",
+    "region":[["N30", "E120"]],
+    "plot":[
+      {"latitude":19.022222, "longitude":-98.627778, "label":"Activity at Popocatépetl", "contents":"<img src='./img/popocatepetl_ali_2012116.jpg' width='150'>"}
+    ],
+    "title":"Activity at Popocatépetl April 27, 2012 (NASA/Earth Observatory)",
+    "contents":"Located about 70 kilometers (40 miles) southeast of Mexico City, Popocatépetl (pronounced poh-poh-kah-TEH-peh-til) is one of Mexico’s most active volcanoes. The towering stratovolcano has been erupting since January 2005, with near constant venting from fumaroles, punctuated by minor steam, gas, and ash emissions.Activity began to intensify in mid-April 2012. The image above, captured by the Advanced Land Imager (ALI) on NASA’s Earth Observing-1 (EO-1) satellite, captured this view of Popocatépetl at 12:35 p.m. local time (16:35 Universal Time) on April 25, 2012.<br/><img src='./img/popocatepetl_ali_2012116.jpg'><br/><a href='http://earthobservatory.nasa.gov/IOTD/view.php?id=77768' target='_blank'>See details</a>"
+  },
+  {
     "article_id":"aurora_in_alaska",
     "region":[["N90", "W180"], ["N90", "W150"], ["N60", "W180"], ["N60", "W150"]], 
     "plot":[
-      {"latitude":58.470721, "longitude":-163.168945, "label":"Aurora video from Alaska", "contents":"<img src='coronal_aurora_over_fairbanks.jpg' width='150'>"}
+      {"latitude":58.470721, "longitude":-163.168945, "label":"Aurora video from Alaska", "contents":"<img src='./img/coronal_aurora_over_fairbanks.jpg' width='150'>"}
     ],
     "title":"Aurora video from Alaska",
-    "contents":"This is a message from Fairbanks, Alaska! It is getting warmer and warmer also here in Alaska, telling us that spring has arrived. These days the sky around midnight is not dark, indicating that the aurora season is over. We should wait until the end of August to see the aurora next time. As you may know, Fairbanks is one of the best locations to see the aurora. Thanks to the recent enhanced solar activity, we sometimes see the spectacular aurora display as follows! (Taro Nakai)<br/><img src='coronal_aurora_over_fairbanks.jpg'><br/> <a href='http://youtu.be/8BC6flTOGSk' target='_blank'>See details</a>"
+    "contents":"This is a message from Fairbanks, Alaska! It is getting warmer and warmer also here in Alaska, telling us that spring has arrived. These days the sky around midnight is not dark, indicating that the aurora season is over. We should wait until the end of August to see the aurora next time. As you may know, Fairbanks is one of the best locations to see the aurora. Thanks to the recent enhanced solar activity, we sometimes see the spectacular aurora display as follows! (Taro Nakai)<br/><img src='./img/coronal_aurora_over_fairbanks.jpg'><br/> <a href='http://youtu.be/8BC6flTOGSk' target='_blank'>See details</a>"
   }
 
 ]} 
