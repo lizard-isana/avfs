@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
 <link rel="stylesheet" type="text/css" href="base.css" title="default" />
 <body>
-<div id="info" style="z-index:3000" >
+<div id="info" style="position:absolute;top:40px;z-index:3000" >
   <div  style="float:left">    
     <form name="dataset">
     Map: <select name="dataset" onChange="AVfS.ChangeDataSet(this[this.selectedIndex].value)">
@@ -41,8 +41,10 @@
   </div>
 </div>
 
-<div id="timeline" style="position:absolute;top:0;right:0;width:300px;margin:0 0 .5em 1em;height:80%; overflow:hidden;z-index:2100"></div>
-<div id="tweet_box" style="position:absolute;bottom:0;right:0;z-index:2000"></div>
+<div id="timeline" style="position:absolute;top:0;right:0;width:300px;margin:0 0 .5em 1em;height:80%; overflow:hidden;z-index:2100;visibility:visible"></div>
+<div id="tweet_box" style="position:absolute;bottom:0;right:0;z-index:2000;visibility:visible"></div>
+
+<div id="menu" style="position:absolute;top:0;left:0;width:500px;height:40px;z-index:2200"><img src="./lib/image/logo.png"><a href="javascript:void(0)" onClick="AVfS.ToggleSocial()"><img src="./lib/image/social.png" alt="social panel"></a><!--<img src="./lib/image/settings.png"><img src="./lib/image/help.png">--></div>
 
 <div id="label_container"><canvas id="label_layer"></canvas></div style="1000">
 <div id="contents_layer" style="z-index:100"></div>
