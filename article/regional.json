@@ -48,10 +48,10 @@
     "article_id":"gulf_of_mexico_monitoring",
     "region":[["N60","W90"],["N30","W90"]],
     "plot":[
-      {"latitude":30.202114, "longitude":-77.783203, "label":"Gulf of Mexico", "contents":""}
+      {"latitude":30.202114, "longitude":-77.783203, "label":"Gulf of Mexico", "contents":"<img src='621631main_20120207_90L-GOES_226.jpg' width='150'>"}
       ],
     "title":"Gulf of Mexico Monitoring",
-    "contents":"International Efforts concentrate on monitoring Gulf of Mexico where many Hurricanes are occurred in every year. <a href='http://www.nasa.gov/mission_pages/hurricanes/archives/2012/h2012_90L.html' target='_blank'>See datails</a>"
+    "contents":"International Efforts concentrate on monitoring Gulf of Mexico where many Hurricanes are occurred in every year. <br/><img src='621631main_20120207_90L-GOES_226.jpg'><br/><a href='http://www.nasa.gov/mission_pages/hurricanes/archives/2012/h2012_90L.html' target='_blank'>See datails</a>"
   },
   {
     "article_id":"wild_fire_in_kalimantan",
@@ -93,10 +93,46 @@
     "article_id":"aurora_in_alaska",
     "region":[["N90", "W180"], ["N90", "W150"], ["N60", "W180"], ["N60", "W150"]], 
     "plot":[
-      {"latitude":58.470721, "longitude":-163.168945, "label":"Aurora video from Alaska", "contents":"<img src='./img/coronal_aurora_over_fairbanks.jpg' width='150'>"}
+      {"latitude":64.843611, "longitude":-147.723056, "label":"Aurora video from Alaska", "contents":"<img src='./img/coronal_aurora_over_fairbanks.jpg' width='150'>"}
     ],
     "title":"Aurora video from Alaska",
     "contents":"This is a message from Fairbanks, Alaska! It is getting warmer and warmer also here in Alaska, telling us that spring has arrived. These days the sky around midnight is not dark, indicating that the aurora season is over. We should wait until the end of August to see the aurora next time. As you may know, Fairbanks is one of the best locations to see the aurora. Thanks to the recent enhanced solar activity, we sometimes see the spectacular aurora display as follows! (Taro Nakai)<br/><img src='./img/coronal_aurora_over_fairbanks.jpg'><br/> <a href='http://youtu.be/8BC6flTOGSk' target='_blank'>See details</a>"
+  },  
+  {
+    "article_id":"the_hottest_spot_on_earth",
+    "region":[["N30", "E30"],["N60", "E30"]],
+    "plot":[
+      {"latitude":31.578535, "longitude":58.007813, "label":"The Hottest Spot on Earth", "contents":"<img src='./img/lut_etm_1999187.jpg' width='150'>"}
+    ],
+    "title":"The Hottest Spot on Earth : April 12, 2012 (NASA/Earth Observatory)",
+    "contents":"In a study of seven years of global land surface temperatures as measured by satellites, the Lut Desert ranked as hottest in five of the years. The single highest LST recorded in any year, in any region, occurred there in 2005, when MODIS recorded a temperature of 70.7°C (159.3°F)—more than 12°C (22°F) warmer than the official air temperature record from Libya.<br/><img src='./img/lut_etm_1999187'><br/><a href='http://earthobservatory.nasa.gov/IOTD/view.php?id=77627' target='_blank'>See details</a>"
+  },
+  {
+    "article_id":"sediment_in_the_rio_de_la_plata",
+    "region":[["S30", "W60"]],
+    "plot":[
+      {"latitude":-35.840082, "longitude":-55.39856, "label":"Sediment in the Río de La Plata", "contents":"<img src='./img/uruguay_tmo_2012091.jpg' width='150'>"}
+    ],
+    "title":"Sediment in the Río de La Plata: April 5, 2012 (NASA/Earth Observatory)",
+    "contents":"The Paraná River, the second longest river in South America after the Amazon, supplies three-quarters of the fresh water that enters the estuary, with the remainder arriving from the Uruguay River. Topsoil running off agricultural fields upstream and flowing into the Paranà as a result of rainstorms likely produced the heavy load of brown sediment visible in the river water.<br/><img src='./img/uruguay_tmo_2012091.jpg'><br/><a href='http://earthobservatory.nasa.gov/IOTD/view.php?id=77581' target='_blank'>See details</a>"
+  },
+  {
+    "article_id":"fog_blankets_the_yellow_sea",
+    "region":[["N60", "E120"]],
+    "plot":[
+      {"latitude":35.675147, "longitude":123.793945, "label":"Fog Blankets the Yellow Sea", "contents":"<img src='./img/yellow_sea_fog_2012088.jpg' width='150'>"}
+    ],
+    "title":"Fog Blankets the Yellow Sea: April 7, 2012 (NASA/Earth Observatory)",
+    "contents":"In spring, it’s not uncommon for a cloak of thick fog to cover the Yellow Sea. The shallow sea, which has a number of busy ports, usually sees 50 foggy days a year; some weather stations in the area have measured fog on up to 80 days.<br/><img src='./img/yellow_sea_fog_2012088.jpg'><br/><a href='http://earthobservatory.nasa.gov/IOTD/view.php?id=77608' target='_blank'>See details</a>"
+  },
+  {
+    "article_id":"fire_in_kuwait",
+    "region":[["N30", "E60"],["N60", "E60"]],
+    "plot":[
+      {"latitude":29.334298, "longitude":47.702637, "label":"Fire in Kuwait", "contents":"<img src='./img/yellow_sea_fog_2012088.jpg' width='150'>"}
+    ],
+    "title":"Fire in Kuwait: April 18, 2012 (NASA/Earth Observatory)",
+    "contents":"On April 17, 2012, a fire broke out in a tire dump near Al Jahrah, Kuwait. Agence France-Presse reported that the fire was fueled by about five million tires. Hundreds of firefighters, aided by soldiers and by employees of the Kuwait Oil Company, struggled to contain the blaze. The Kuwait News Agency reported that the nation’s Fire Services Directorate expected to have the fire completely extinguished later that day.<br/><img src='./img/fire_in_kuwait.jpg'><br/><a href='http://earthobservatory.nasa.gov/IOTD/view.php?id=77678' target='_blank'>See details</a>"
   }
 
 ]} 
