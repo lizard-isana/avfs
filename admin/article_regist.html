@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>A View from Space: Article Register</title>
+<meta charset="utf-8">
+<style>
+h1,h2{
+font-size:1.2em;
+border-bottom:1px solid #bbb;
+}
+h3{
+font-size:1.0em;
+border-bottom:1px dashed #bbb;
+}
+table{
+border-collapse:collapse;
+border: 1px solid #f00;
+background-image: url("./image/world_topo_bathy_200404_3x1024x512.jpg");
+width:1024px;
+height:512px;
+text-align:center;
+color:#fff;
+}
+tr,td{
+ border: 1px solid #f00;
+}
+td a{
+color: #bbb;
+text-decoration:none;
+}
+</style>
+<script>
+
+BuildSubmitJSON = function(){
+  var string = "{\n"
+  var region =  document.getElementById("region");
+  var title =  document.getElementById("title");
+  var id = title.value.replace(/ /g, "_").toLowerCase();
+  var text =  document.getElementById("text");
+  var source =   document.getElementById("source");
+  var upload_file =   document.getElementById("upload_file");
+  var path = upload_file.value.split('\\');
+  var file_name = path[path.length-1];
+  
+  string += '"article_id":"' + id + '",\n';
+  string += '"region":[' + region.value + '],\n';
+  string += '"title":"' + title.value + '",\n';  
+  string += '"contents":"' + text.value + '<br/><img src=\'./img/' + file_name + '\'><br><br><a href=\'' + source.value +  '\' target=\'_blank\'>See details</a>",\n';
+  var plot =  document.getElementById("plot");
+  if(plot.checked == true){
+    string += '"plot":[\n'
+    var plot_latitude =  document.getElementById("plot_latitude");
+    string += '{"latitude":' + plot_latitude.value + ', ';
+    var plot_longitude =  document.getElementById("plot_longitude");
+    string += '"longitude":' + plot_longitude.value  + ', ';
+    var plot_label =  document.getElementById("plot_label");
+    string += '"label":"' + plot_label.value  + '", ';
+    var plot_text =  document.getElementById("plot_text");
+    string += '"contents":"' + plot_text.value  + '<img src=\'./img/' + file_name + '\' width=\'150px\'>"}\n';
+    string += ']\n'
+}
+  string += "}"
+return string
+}
+showResult = function(){
+  var json = BuildSubmitJSON();
+  var result = document.getElementById("json");
+  result.value = json;
+}
+SetRegion = function(lat_key, lng_key){
+    var region =  document.getElementById("region");
+    if(region.value != ""){
+      region.value += ","
+    }
+    region.value += "[\"" + lat_key + "\",\"" + lng_key + "\"]";
+}
+</script>
+<body>
+<h1>A View from Space: Article Register</h1>
+<div id ="contents_mesh">
+    <table>
+      <tr>
+        <td><a href="javascript:void(0)" onclick="SetRegion('N90','W180')">N90,W180</a></td>
+        <td><a href="javascript:void(0)" onclick="SetRegion('N90','W150')">N90,W150</a></td>
+        <td><a href="javascript:void(0)" onclick="SetRegion('N90','W120')">N90,W120</a></td>
+        <td><a href="javascript:void(0)" onclick="SetRegion('N90','W90')">N90,W90</a></td>
+        <td><a href="javascript:void(0)" onclick="SetRegion('N90','W60')">N90,W60</a></td>
+        <td><a href="javascript:void(0)" onclick="SetRegion('N90','W30')">N90,W30</a></td>
+        <td><a href="javascript:void(0)" onclick="SetRegion('N90','E0')">N90,E0</a></td>
+        <td><a href="javascript:void(0)" onclick="SetRegion('N90','E30')">N90,E30</a></td>
+        <td><a href="javascript:void(0)" onclick="SetRegion('N90','E60')">N90,E60</a></td>
+        <td><a href="javascript:void(0)" onclick="SetRegion('N90','E90')">N90,E90</a></td>
+        <td><a href="javascript:void(0)" onclick="SetRegion('N90','E120')">N90,E120</a></td>
+        <td><a href="javascript:void(0)" onclick="SetRegion('N90','E150')">N90,E150</a></td>
+      </tr>
+      <tr>
+        <td><a href="javascript:void(0)" onclick="SetRegion('N60','W180')">N60,W180</a></a></td>
+        <td><a href="javascript:void(0)" onclick="SetRegion('N60','W150')">N60,W150</a></td>
+        <td><a href="javascript:void(0)" onclick="SetRegion('N60','W120')">N60,W120</a></td>
+        <td><a href="javascript:void(0)" onclick="SetRegion('N60','W90')">N60,W90</a></td>
+        <td><a href="javascript:void(0)" onclick="SetRegion('N60','W60')">N60,W60</a></td>
+        <td><a href="javascript:void(0)" onclick="SetRegion('N60','W30')">N60,W30</a></td>
+        <td><a href="javascript:void(0)" onclick="SetRegion('N60','E0')">N60,E0</a></td>
+        <td><a href="javascript:void(0)" onclick="SetRegion('N60','E30')">N60,E30</a></td>
+        <td><a href="javascript:void(0)" onclick="SetRegion('N60','E60')">N60,E60</a></td>
+        <td><a href="javascript:void(0)" onclick="SetRegion('N60','E90')">N60,E90</a></td>
+        <td><a href="javascript:void(0)" onclick="SetRegion('N60','E120')">N60,E120</a></td>
+        <td><a href="javascript:void(0)" onclick="SetRegion('N60','E150')">N60,E150</a></td>
+      </tr>
+      <tr>
+        <td><a href="javascript:void(0)" onclick="SetRegion('N30','W180')">N30,W180</a></a></td>
+        <td><a href="javascript:void(0)" onclick="SetRegion('N30','W150')">N30,W150</a></td>
+        <td><a href="javascript:void(0)" onclick="SetRegion('N30','W120')">N30,W120</a></td>
+        <td><a href="javascript:void(0)" onclick="SetRegion('N30','W90')">N30,W90</a></td>
+        <td><a href="javascript:void(0)" onclick="SetRegion('N30','W60')">N30,W60</a></td>
+        <td><a href="javascript:void(0)" onclick="SetRegion('N30','W30')">N30,W30</a></td>
+        <td><a href="javascript:void(0)" onclick="SetRegion('N30','E0')">N30,E0</a></td>
+        <td><a href="javascript:void(0)" onclick="SetRegion('N30','E30')">N30,E30</a></td>
+        <td><a href="javascript:void(0)" onclick="SetRegion('N30','E60')">N30,E60</a></td>
+        <td><a href="javascript:void(0)" onclick="SetRegion('N30','E90')">N30,E90</a></td>
+        <td><a href="javascript:void(0)" onclick="SetRegion('N30','E120')">N30,E120</a></td>
+        <td><a href="javascript:void(0)" onclick="SetRegion('N30','E150')">N30,E150</a></td>
+      </tr>
+      <tr>
+        <td><a href="javascript:void(0)" onclick="SetRegion('S0','W180')">S0,W180</a></a></td>
+        <td><a href="javascript:void(0)" onclick="SetRegion('S0','W150')">S0,W150</a></td>
+        <td><a href="javascript:void(0)" onclick="SetRegion('S0','W120')">S0,W120</a></td>
+        <td><a href="javascript:void(0)" onclick="SetRegion('S0','W90')">S0,W90</a></td>
+        <td><a href="javascript:void(0)" onclick="SetRegion('S0','W60')">S0,W60</a></td>
+        <td><a href="javascript:void(0)" onclick="SetRegion('S0','W30')">S0,W30</a></td>
+        <td><a href="javascript:void(0)" onclick="SetRegion('S0','E0')">S0,E0</a></td>
+        <td><a href="javascript:void(0)" onclick="SetRegion('S0','E30')">S0,E30</a></td>
+        <td><a href="javascript:void(0)" onclick="SetRegion('S0','E60')">S0,E60</a></td>
+        <td><a href="javascript:void(0)" onclick="SetRegion('S0','E90')">S0,E90</a></td>
+        <td><a href="javascript:void(0)" onclick="SetRegion('S0','E120')">S0,E120</a></td>
+        <td><a href="javascript:void(0)" onclick="SetRegion('S0','E150')">S0,E150</a></td>
+      </tr>
+      <tr>
+        <td><a href="javascript:void(0)" onclick="SetRegion('S30','W180')">S30,W180</a></a></td>
+        <td><a href="javascript:void(0)" onclick="SetRegion('S30','W150')">S30,W150</a></td>
+        <td><a href="javascript:void(0)" onclick="SetRegion('S30','W120')">S30,W120</a></td>
+        <td><a href="javascript:void(0)" onclick="SetRegion('S30','W90')">S30,W90</a></td>
+        <td><a href="javascript:void(0)" onclick="SetRegion('S30','W60')">S30,W60</a></td>
+        <td><a href="javascript:void(0)" onclick="SetRegion('S30','W30')">S30,W30</a></td>
+        <td><a href="javascript:void(0)" onclick="SetRegion('S30','E0')">S30,E0</a></td>
+        <td><a href="javascript:void(0)" onclick="SetRegion('S30','E30')">S30,E30</a></td>
+        <td><a href="javascript:void(0)" onclick="SetRegion('S30','E60')">S30,E60</a></td>
+        <td><a href="javascript:void(0)" onclick="SetRegion('S30','E90')">S30,E90</a></td>
+        <td><a href="javascript:void(0)" onclick="SetRegion('S30','E120')">S30,E120</a></td>
+        <td><a href="javascript:void(0)" onclick="SetRegion('S30','E150')">S30,E150</a></td>
+      </tr>
+      <tr>
+        <td><a href="javascript:void(0)" onclick="SetRegion('S60','W180')">S60,W180</a></a></td>
+        <td><a href="javascript:void(0)" onclick="SetRegion('S60','W150')">S60,W150</a></td>
+        <td><a href="javascript:void(0)" onclick="SetRegion('S60','W120')">S60,W120</a></td>
+        <td><a href="javascript:void(0)" onclick="SetRegion('S60','W90')">S60,W90</a></td>
+        <td><a href="javascript:void(0)" onclick="SetRegion('S60','W60')">S60,W60</a></td>
+        <td><a href="javascript:void(0)" onclick="SetRegion('S60','W30')">S60,W30</a></td>
+        <td><a href="javascript:void(0)" onclick="SetRegion('S60','E0')">S60,E0</a></td>
+        <td><a href="javascript:void(0)" onclick="SetRegion('S60','E30')">S60,E30</a></td>
+        <td><a href="javascript:void(0)" onclick="SetRegion('S60','E60')">S60,E60</a></td>
+        <td><a href="javascript:void(0)" onclick="SetRegion('S60','E90')">S60,E90</a></td>
+        <td><a href="javascript:void(0)" onclick="SetRegion('S60','E120')">S60,E120</a></td>
+        <td><a href="javascript:void(0)" onclick="SetRegion('S60','E150')">S60,E150</a></td>
+      </tr>
+    </table>    
+</div>
+<div>
+<form name="submit_article">
+<h2>Region</h2>
+<input type="text" name="region" id = "region" style="width:600px">
+<h2>Title</h2>
+<input type="text" name="title" id ="title" style="width:600px">
+<h2>Text</h2>
+<textarea name="text" id="text" style="width:600px;height:10em"></textarea>
+<h2>Source</h2>
+<input type="text" name="source" id ="source" style="width:600px">
+<h2>Plot</h2>
+<div style="margin-left:2em">
+Plot: <input type="checkbox" name="plot" id="plot" value="true">    
+<h3>Position</h3>    
+<div style="float:left">
+Latitude: <input type="text" name="plot_latitude" id = "plot_latitude" style="width:200px">
+</div>
+<div>
+Longitude: <input type="text" name="plot_longitude" id = "plot_longitude" style="width:200px">
+</div>
+<div style="clear:all">
+<h3>Label</h3>
+<input type="text" name="plot_label" id="plot_label" style="width:600px">
+<h3>Text</h3>
+<textarea name="plot_text" id="plot_text" style="width:600px;height:5em"></textarea>
+</div>
+</div>
+<div>
+<h2>Image</h2>
+<input type="file" name="upload_file" id="upload_file" />
+</div>
+<div style="margin-top:2em">
+<input type="button" value="encode" onclick="showResult();">
+</div>
+</form>
+
+<div style="margin-top:2em">
+<h2>Result</h2>
+<form name ="result">
+<textarea  id ="json" name="json" style="width:600px;height:15em"></textarea>
+</form>
+</div>
+<h2>Reference</h2>
+<p><a href="http://earthobservatory.nasa.gov/">NASA Earth Observatory : Home</a></p>
+</div>
+</body>
+</html>
