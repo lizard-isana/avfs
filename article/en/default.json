@@ -1,0 +1,42 @@
+{"Default":[
+    {
+       "article_id":"expedition31", 
+       "title": "ISS Expedition 31",
+       "contents": "Expedition 31 begins with the Soyuz TMA-22 undocking in April 2012. Three new crew members will arrive shortly thereafter on Soyuz TMA-04M. <br/><br/><strong>Crew on board:</strong><br>Commander Oleg Kononenko<br/>Flight Engineer André Kuipers<br/>Flight Engineer Don Pettit<br/><a href='http://www.nasa.gov/mission_pages/station/expeditions/expedition31/index.html' target='_blank'>See details</a>"
+    },
+    {
+       "article_id":"map_blue_marble", 
+       "title": "Map: The Blue Marble Next Generation",
+       "contents": "In celebration of the deployment of its Earth Observing System, NASA is pleased to share the newest in its series of stunning Earth images, affectionately named the “Blue Marble.” This new Earth imagery enhances the Blue Marble legacy by providing a detailed look at an entire year in the life of our planet. In sharing these Blue Marble images, NASA hopes the public will join with the agency in its continuing exploration of our world from the unique perspective of space.<br/><img src='./img/world_topo_bathy_thumbnail.jpg'><br/><a href='javascript:void(0)' onClick=AVfS.ChangeDataSet('default') >Change Map</a>"
+    },
+    {
+       "article_id":"map_global_ecco2", 
+       "title": "Map: Global Sea Surface Currents and Temperature(NASA/GSFC)",
+       "contents": "This visualization shows sea surface current flows. The flows are colored by corresponding sea surface temperature data. <br/><br/><img src='./img/global_ecco2_thumbnail.jpg'><br/><a href='javascript:void(0)' onClick=AVfS.ChangeDataSet('global_ecco2') >Change Map</a>"
+    },
+    {
+       "article_id":"map_fire_20120321", 
+       "title": "Map: Global Fire Map 03/21/2012 - 03/30/2012",
+       "contents": "This fire map accumulates the locations of the fires detected by MODIS on board the Terra and Aqua satellites over a 10-day period. Each colored dot indicates a location where MODIS detected at least one fire during the compositing period. Color ranges from red where the fire count is low to yellow where number of fires is large. <br/><img src='./img/global_fire_map_thmbnail.jpg'><br/><a href='javascript:void(0)' onClick=AVfS.ChangeDataSet('fire_20120321') >Change Map</a>"
+    },
+    {
+       "article_id":"map_population_density", 
+       "title": "Map: Population Density 2000",
+       "contents": "Understanding how human population is spread out across the Earth's surface is an important part of many types of research, and it is especially important for studying the planet's supply of and human demand for natural resources like freshwater, forest products, or good farmland.This map is broken up into grids showing number of people per square kilometer. The most densely populated areas are bright red; these include large cities all over the world. Another obvious population pattern is the big difference in population between Earth's most populated countries — China and India — and other countries.<br/><img src='./img/population_density_thumbnail.jpg'><br/><a href='javascript:void(0)' onClick=AVfS.ChangeDataSet('population_density_2000') >Change Map</a>"
+    },
+    {
+       "article_id":"internatonal_cooperation_on_iss", 
+       "title": "International Cooperation on ISS",
+       "contents": "The International Space Station (ISS) Program’s greatest accomplishment is as much a human achievement as it is a technological one—how best to plan, coordinate, and monitor the varied activities of the Program’s many organizations.<br/> <img src='http://www.nasa.gov/images/content/491603main_main_facilities_med_thum2.jpg' width='200'><br/><a href='http://www.nasa.gov/mission_pages/station/cooperation/index.html' target='_blank'>See details</a>"
+    },
+    {
+       "article_id":"about_earth", 
+       "title": "Earth",
+       "contents": "Earth (or the Earth) is the third planet from the Sun, and the densest and fifth-largest of the eight planets in the Solar System. It is also the largest of the Solar System's four terrestrial planets. It is sometimes referred to as the world, the Blue Planet, or by its Latin name, Terra.<br/><br/>Radius: 6,371.0 km<br/>Surface area: 510,072,000 km<sup>2</sup><br/>Mass: 5.9736×10<sup>24</sup>kg<br/>Rotation period: 23h 56m 4.100s<br/><br/>Composition:<br/>78.08% Nitrogen (N2)<br/>20.95% oxygen (O2)<br/>0.93% argon<br/>0.038% carbon dioxide<br/>About 1% water vapor (varies with climate)<br/><a href='http://en.wikipedia.org/wiki/Earth' target='_blank'>Earth - Wikipedia, the free encyclopedia</a> "
+    },
+    {
+       "article_id":"a_view_from_space", 
+       "title": "A View from Space",
+       "contents": "'A View from Space' is a web-based 3D satellite tracking system of International Space Station with mapped various earth science data and to share it via social media. The ISS is a 'view point' to share with people all over the world, transcending national boundaries. Sharing one view point from space concurrently would be help us think of our planet together.<br/><br/>‎<em>The first day or so we all pointed to our countries. The third or fourth day we were pointing to our continents. By the fifth day, we were aware of only one Earth.</em><br/>- Sultan bin Salman Al-Saud / Astronaut"
+    }
+]}

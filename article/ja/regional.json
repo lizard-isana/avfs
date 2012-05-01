@@ -1,0 +1,176 @@
+{"Regional": [
+  {
+    "article_id":"sea_ice_on_antarctica", 
+    "region":[["N60","E0"],["N60","E30"],["N60","E60"],["N60","E90"],["N60","E120"],["N60","E150"],["N60","W180"],["N60","W150"],["N60","W120"],["N60","W90"],["N60","W60"],["N60","W30"],["S30","E0"],["S30","E30"],["S30","E60"],["S30","E90"],["S30","E120"],["S30","E150"],["S30","W180"],["S30","W150"],["S30","W120"],["S30","W90"],["S30","W60"],["S30","W30"]], 
+    "title": "極地の海氷観測",
+    "contents":"極地の海氷を観測することは人工衛星によるリモートセンシングの主要な役割の一つです。北極で海氷が減少しているにもかかわらず、南極で海氷が増えていることについては多くの学者の間で活発な議論が行われています。<br/><img src='./img/antarctic_AMSRE_visual_small.jpg'><br/><a href='http://www.iup.uni-bremen.de:8084/amsr/' target='_blank'>See monitoring site</a>"
+  },
+  {
+    "article_id":"surprising_arctic_methane_emission_source",
+    "region":[["N60","E0"],["N60","E30"],["N60","E60"],["N60","E90"],["N60","E120"],["N60","E150"],["N60","W180"],["N60","W150"],["N60","W120"],["N60","W90"],["N60","W60"],["N60","W30"],["S30","E0"],["S30","E30"],["S30","E60"],["S30","E90"],["S30","E120"],["S30","E150"],["S30","W180"],["S30","W150"],["S30","W120"],["S30","W90"],["S30","W60"],["S30","W30"]], 
+    "title": "News: 極地でのメタンの排出に関する新発見 04.22.12  (NASA)",
+    "contents": "メタンは強力な温室効果ガスとして知られていますが、NASAの主導で行われた航空機による極地でのメタンの排出に関する調査で、海氷の割れ目や海面が一部氷に覆われている部分から、驚くほどの量のメタンが放出されていることが明らかになりました。<br/><img src='./img/640892main_earth20120422-673.jpg'><br/><a href='http://www.nasa.gov/topics/earth/features/earth20120422.html' target='_blank'>See details...</a>"
+  },
+  {
+    "article_id":"indian_ocean_tsunami",
+    "region":[["N30","E60"],["S0","E60"]], 
+    "plot":[
+      {"latitude":17.688378, "longitude":83.218758, "label":"Tsunami on Indean Ocean", "contents":"<img src='./img/106168main_pia04372-516' width='150'>"}
+      ],
+    "title": "インド洋の津波被害 (NASA)",
+    "contents": "インド洋に面した国々はこれまで何度も大きな地震にともなって津波の被害に会って来ました。NASAを始めとする各機関は衛星を使った津波の被害の把握を試みています。<br/> <img src='./img/106168main_pia04372-516' width='256'><br/> <a href='http://www.nasa.gov/vision/earth/lookingatearth/tsunami-images.html' target='_blank'>See details...</a>"
+  },
+  {
+  "article_id":"el_nino_pacific_ocean",
+  "region":[ ["N30", "W120"], ["S0", "W120"],["S0", "W90"]], 
+    "plot":[
+       {"latitude":-7.188101, "longitude":-95.95459, "label":"El Nino in Pacific Ocean", "contents":"<img src='./img/el_nino_ocean_PIA01085.png' width='150'>"}
+     ],
+  "title":"太平洋のエルニーニョ (NASA)", 
+  "contents":"エルニーニョ（El Nino）は東太平洋の一部の地域の海水温が通常時より高くなる現象です。この現象は広い地域での様々な異常気象に密接な関わりがあると考えられています。太平洋地域での海水温の観測はこれらの異常気象のメカニズムを理解する上で非常に重要です。<br/><img src='./img/el_nino_ocean_PIA01085.png' width='200'><br/><a href='http://www.jpl.nasa.gov/earth/ocean_motion/el_nino_index.cfm' target='_blank'>See details</a>"
+  },
+  {
+    "article_id":"coccolithophores_around_the_bering_sea",
+    "region":[["N90","E150"], ["N90","W180"],["N60","E150"], ["N60","W180"]],
+    "plot":[
+      {"latitude":58.470721, "longitude":-163.168945, "label":"Coccolithophore Bloom", "contents":"<img src='./img/bering_bloom_2000.jpg' width='150'>"}
+      ],
+    "title": "ベーリング海でのココリス大量発生 (NASA)",
+    "contents": "1997年頃から、ベーリング海でのココリス（円石藻類）の大量発生が続いています。ココリスというのは植物プランクトンの一種、富栄養環境に適応し局所的に大発生する性質があります。なぜ、近年になってこの海域でこうした現象が起きているのか詳しいことはまだよく分かっていません。 <br/><img src='./img/bering_bloom_2000.jpg'><br/><a href='http://earthobservatory.nasa.gov/IOTD/view.php?id=588'>See details</a>"
+  },
+  {
+    "article_id":"gulf_of_mexico_monitoring",
+    "region":[["N60","W90"],["N30","W90"]],
+    "plot":[
+      {"latitude":30.202114, "longitude":-77.783203, "label":"Gulf of Mexico", "contents":"<img src='621631main_20120207_90L-GOES_226.jpg' width='150'>"}
+      ],
+    "title":"メキシコ湾のハリケーン(NASA)",
+    "contents":"毎年6月から11月ごろにかけてメキシコ湾で毎年数多くのハリケーンが発生します。これらのハリケーンは周辺諸国に大きな被害をもたらしており、人工衛星を始めとするリモートセンシングによる観測が国際的な協力の元で行われています。 <br/><img src='621631main_20120207_90L-GOES_226.jpg'><br/><a href='http://www.nasa.gov/mission_pages/hurricanes/archives/2012/h2012_90L.html' target='_blank'>See datails</a>"
+  },
+  {
+    "article_id":"wild_fire_in_kalimantan",
+    "region":[["N30", "E90"], ["S0", "E90"]],
+    "plot":[
+      {"latitude":0.878872, "longitude":114.916992, "label":"Wild fire in Kalimantan island", "contents":"<img src='./img/fire_in_kalimantan.jpg' width='150'>"}
+    ],
+    "title":"カリマンタン島の火事",
+    "contents":"山火事は大きなCO2の放出源であり衛星からの広域的な観測が非常に重要です。北海道大学の中右浩二先生にカリマンタン島で起きている泥炭の火事の衛星による観測についてご紹介頂きました。<br/><img src='./img/fire_in_kalimantan.jpg'><br/><a href='./doc/nakau/index.html' target='_blank'>See details</a>（リンク先英文です）"
+  },
+  {
+    "article_id":"glacier_lake_in_bhutan",
+    "region":[["N60", "E60"], ["N60", "E90"], ["N30", "E60"], ["N30", "E90"]],
+    "plot":[
+      {"latitude":27.936181, "longitude":90.373535, "label":"Glacier Lake in the Bhutan", "contents":"<img src='./img/pan_bhutan_v1203_01.jpg' width='150'>"}
+    ],
+    "title":"ブータンの氷河湖 (JAXA)",
+    "contents":"災害や気候変動、水資源などの観点から氷河湖決壊洪水（Glacier Lake Outburst Floods:GLOF）への注目が高まっています。氷河湖決壊洪水というのは氷河湖を形勢する氷や岩などが崩れて起きる洪水のことで、過去にも世界中で大きな被害を出しています。「ブータン氷河湖決壊洪水プロジェクト」では、JAXAの地球観測衛星「だいち(ALOS)」の高分解能のデータを使ってブータンの氷河湖の詳細なリストを作成しています。<br/><img src='./img/pan_bhutan_v1203_01.jpg'><br/><a href='http://www.eorc.jaxa.jp/ALOS/en/bhutan_gli/index.htm' target='_blank'>See details</a>"
+  },
+  {
+    "article_id":"fires_blaze_north_of_omsk",
+    "region":[["N60", "E30"],["N60", "E60"]],
+    "plot":[
+      {"latitude":54.983333, "longitude":73.366667, "label":"Fires Blaze North of Omsk", "contents":"<img src='./img/russia_2012115.jpg' width='150'>"}
+    ],
+    "title":"オムスク市郊外の野焼きの炎 : April 24, 2012 (NASA/Earth Observatory)",
+    "contents":"毎年4月になると、中央アジアのあちこちで農家がこれから始まるシーズンに備えて野焼きが始まります。今年もその例外ではありません。ロシア中央部のオムスク市近郊はロシアでも有数の農業地帯です。ただ、一方で中央アジアで起きる山火事の18～29%がこうした農業活動由来だとも言われています。<br/><img src='./img/russia_2012115.jpg'><br/><a href='http://earthobservatory.nasa.gov/IOTD/view.php?id=77763' target='_blank'>See details</a>"
+  },
+  {
+    "article_id":"activity_at_popocatepetl",
+    "region":[["N30", "E120"]],
+    "plot":[
+      {"latitude":19.022222, "longitude":-98.627778, "label":"Activity at Popocatﾃｩpetl", "contents":"<img src='./img/popocatepetl_ali_2012116.jpg' width='150'>"}
+    ],
+    "title":"メキシコ、ポポカテペトル火山: April 27, 2012 (NASA/Earth Observatory)",
+    "contents":"メキシコ市の70km南東に位置するポポカテペトル山はメキシコでもっとも活発な火山の一つです。2005年頃から断続的に噴煙や火山性ガス、灰の放出が続いており、2012年4月中旬から活動が活発化する徴候が見られています。下の写真が撮影されたのは2012年4月25日、NASAのEarth Observing-1 (EO-1) のAdvanced Land Imager (ALI) センサーによるものです。<br/><img src='./img/popocatepetl_ali_2012116.jpg'><br/><a href='http://earthobservatory.nasa.gov/IOTD/view.php?id=77768' target='_blank'>See details</a>"
+  },
+  {
+    "article_id":"aurora_in_alaska",
+    "region":[["N90", "W180"], ["N90", "W150"], ["N60", "W180"], ["N60", "W150"]], 
+    "plot":[
+      {"latitude":64.843611, "longitude":-147.723056, "label":"Aurora video from Alaska", "contents":"<img src='./img/coronal_aurora_over_fairbanks.jpg' width='150'>"}
+    ],
+    "title":"アラスカのオーロラ 2012.04.21",
+    "contents":"アラスカ、フェアバンクスからメッセージが届きました！「ここアラスカでは日を追う毎に暖かくなり、春が近づいていることが感じられます。真夜中でも明るくなりオーロラのシーズンももうすぐ終わり、次のシーズンが始まる8月末まで待たなければなりません。御存知の通りフェアバンクスはオーロラ観測にもっとも適した場所の一つです。ここ最近の活発化した太陽活動が素晴らしいオーロラを私達に見せてくれました」 (Taro Nakai)<br/><img src='./img/coronal_aurora_over_fairbanks.jpg'><br/> <a href='http://youtu.be/8BC6flTOGSk' target='_blank'>See Youtube video</a>"
+  },  
+  {
+    "article_id":"the_hottest_spot_on_earth",
+    "region":[["N30", "E30"],["N60", "E30"]],
+    "plot":[
+      {"latitude":31.578535, "longitude":58.007813, "label":"The Hottest Spot on Earth", "contents":"<img src='./img/lut_etm_1999187.jpg' width='150'>"}
+    ],
+    "title":"地球上でもっとも暑い場所 : 2012.04.12 (NASA/Earth Observatory)",
+    "contents":"地球上でもっとも暑い場所はどこでしょうか？実際に人が気温を測った場所が限られているので、はっきりしたことはわかりません。ただ、人工衛星による観測では、7年間の観測期間中の5年、イラン東部のルート砂漠でもっとも高い気温を示しました。もっとも気温が高かったのは2005年、摂氏70.7度を記録しています。これはリビアで記録された公式の気象観測記録よりも12度も高い数字です。<br/><img src='./img/lut_etm_1999187'><br/><a href='http://earthobservatory.nasa.gov/IOTD/view.php?id=77627' target='_blank'>See details</a>"
+  },
+  {
+    "article_id":"sediment_in_the_rio_de_la_plata",
+    "region":[["S30", "W60"]],
+    "plot":[
+      {"latitude":-35.840082, "longitude":-55.39856, "label":"Sediment in the Río de La Plata", "contents":"<img src='./img/uruguay_tmo_2012091.jpg' width='150'>"}
+    ],
+    "title":"ラプラタ川の堆積物: 2012.04.05 (NASA/Earth Observatory)",
+    "contents":"パラナ川からの泥流がラプラタ川に流れ込んでいます。アマゾンについで南米2番目に大きな川パラナ川はラプラタ川水系の最大の支流であり水系全体の3/4の水量を持っています。これらの泥流は豪雨によって上流の農地から流出した表土によるものでしょう。写真には泥流と海水が出会う“濁りフロント”（turbidity front）と呼ばれる領域の複雑な挙動が写しだされています。<br/><img src='./img/uruguay_tmo_2012091.jpg'><br/><a href='http://earthobservatory.nasa.gov/IOTD/view.php?id=77581' target='_blank'>See details</a>"
+  },
+  {
+    "article_id":"fog_blankets_the_yellow_sea",
+    "region":[["N60", "E120"]],
+    "plot":[
+      {"latitude":35.675147, "longitude":123.793945, "label":"Fog Blankets the Yellow Sea", "contents":"<img src='./img/yellow_sea_fog_2012088.jpg' width='150'>"}
+    ],
+    "title":"Fog Blankets the Yellow Sea: April 7, 2012 (NASA/Earth Observatory)",
+    "contents":"In spring, it’s not uncommon for a cloak of thick fog to cover the Yellow Sea. The shallow sea, which has a number of busy ports, usually sees 50 foggy days a year; some weather stations in the area have measured fog on up to 80 days.<br/><img src='./img/yellow_sea_fog_2012088.jpg'><br/><a href='http://earthobservatory.nasa.gov/IOTD/view.php?id=77608' target='_blank'>See details</a>"
+  },
+  {
+    "article_id":"fire_in_kuwait",
+    "region":[["N30", "E60"],["N60", "E60"]],
+    "plot":[
+      {"latitude":29.334298, "longitude":47.702637, "label":"Fire in Kuwait", "contents":"<img src='./img/fire_in_kuwait.png' width='150'>"}
+    ],
+    "title":"Fire in Kuwait: April 18, 2012 (NASA/Earth Observatory)",
+    "contents":"On April 17, 2012, a fire broke out in a tire dump near Al Jahrah, Kuwait. Agence France-Presse reported that the fire was fueled by about five million tires. Hundreds of firefighters, aided by soldiers and by employees of the Kuwait Oil Company, struggled to contain the blaze. The Kuwait News Agency reported that the nation’s Fire Services Directorate expected to have the fire completely extinguished later that day.<br/><img src='./img/fire_in_kuwait.png'><br/><a href='http://earthobservatory.nasa.gov/IOTD/view.php?id=77678' target='_blank'>See details</a>"
+  },
+  {
+    "article_id":"ice_floes_along_the_kamchatka_coastline",
+    "region":[["N60","E150"]],
+    "title":"カムチャッカ半島沿岸の氷塊 (NASA/Earth Observatory)",
+    "contents":"カムチャッカ半島の太平洋沿岸は冬季に海氷に覆われます。氷の塊は互いにぶつかり合いながら細かく砕け、海流と風によって運ばれて写真のような渦を描きます。この写真は2012年3月15日に国際宇宙ステーションから撮影されました。 <br><img src='./img/ice_floes_along_the_kamchatka_coastline.jpg' width='256px'><br><a href='http://earthobservatory.nasa.gov/IOTD/view.php?id=77589' target='_blank'>See details</a>",
+    "plot":[
+    {"latitude":54.925278, "longitude":160.540278, "label":"Ice Floes Along the Kamchatka Coastline", "contents":"<img src='./img/ice_floes_along_the_kamchatka_coastline.jpg' width='150px'>"}
+    ]
+  },
+  {
+    "article_id":"white_sands_dust_storm",
+    "region":[["N60","W120"]],
+    "title":"White Sands Dust Storm April 30, 2012   (NASA/Earth Observatory)",
+    "contents":"Driven by southwesterly winter winds, dust from the White Sands dune field in New Mexico rises thousands of feet from the valley floor and drifts over the snowy peaks of the Sacramento Mountains. <br/><img src='./img/white_sands_dust_storm.jpg'><br><br><a href='http://earthobservatory.nasa.gov/IOTD/view.php?id=77775' target='_blank'>See details</a>",
+    "plot":[
+    {"latitude":32.781389, "longitude":-106.172869, "label":"White Sands Dust Storm", "contents":"<img src='./img/white_sands_dust_storm.jpg' width='150px'>"}
+    ]
+  },
+  {
+    "article_id":"hawaiian_islands",
+    "region":[["N30","W180"]],
+    "title":"Hawaiian Islands: June 3, 2003 (Earth Observatory/NASA)",
+    "contents":"From lower right to upper left, the “Big Island” (Hawaii), Maui, Kahoolawe, Lanai, Molokai, Oahu, Kauai, and Niihau islands all make up the state of Hawaii, which lies more than 2,000 miles from any other part of the United States. The small red dot on the Big Island’s southeastern side marks a hot spot on Kilauea Volcano’s southern flank. Kilauea has been erupting almost continuously since January 1983, and is one of the world’s best studied volcanoes.<br/><img src='./img/hawaiian_islands.jpg'><br><br><a href='http://earthobservatory.nasa.gov/IOTD/view.php?id=3510' target='_blank'>See details</a>",
+    "plot":[
+    {"latitude":19.566667, "longitude":-155.5, "label":"Hawaiian Islands", "contents":"<img src='./img/hawaiian_islands.jpg' width='150px'>"}
+    ]
+  },
+  {
+    "article_id":"tracking_debris_from_the_tohoku_tsunami",
+    "region":[["N60","E120"],["N60","E150"],["N60","W180"],["N30","E150"],["N30","W180"],["N30","W150"]],
+    "title":"東日本大震災の津波による漂流がれきの追跡: 2012.04.04 (Earth Observatory/NASA)",
+    "contents":"2011年3月、巨大な津波が日本の東北沿岸を襲いました。津波による引き波は家屋などの破片や人々の命を海洋へと押し流しました。日本政府は5百万トンもの破片が流され、そのうちの70%が海底に沈み、残りの150万トンが漂流していると予測しています。震災から一年が経過しましたが、その破片は今も太平洋を漂っていいます。どれくらいの量が、今どのあたりにあるのかまだはっきりとはわかっていません。<br/><img src='./img/tracking_debris_from_the_tohoku_tsunami.png'><br><br><a href='http://earthobservatory.nasa.gov/IOTD/view.php?id=77489' target='_blank'>See details</a>",
+    "plot":[
+    {"latitude":36.70366, "longitude":165.585938, "label":"Tracking Debris from the Tohoku Tsunami", "contents":"<img src='./img/tracking_debris_from_the_tohoku_tsunami.png' width='150px'>"}
+    ]
+  },
+  {
+    "article_id":"amazon_river_in_the_atlantic_ocean",
+    "region":[["N30","W90"],["N30","W60"]],
+    "title":"大西洋を流れるアマゾン川: 2003.1013 (Earth Observatory/NASA)",
+    "contents":"アマゾン川の河口に面する海域でクロロフィル（葉緑素）の濃度が上昇しています。理由は2つ。ひとつは河川から流れ出る栄養が海洋の植物性プランクトンの生育を促しているため、もうひとつは、川から流れ出る水の流れは密度が高く移動速度も早いため、河水中の植物由来の物質があまり拡散しないためです。アマゾン川河口付近では、通常の衛星写真にもIn fact, the Amazon plume remains concentrated enough that it can be seen meandering several kilometers across the Atlantic in the natural-color image.<br/><img src='./img/amazon_river_in_the_atlantic_ocean.jpg'><br><br><a href='http://earthobservatory.nasa.gov/IOTD/view.php?id=7021' target='_blank'>See details</a>",
+    "plot":[
+    {"latitude":2.372369, "longitude":-46.318359, "label":"Amazon River in the Atlantic Ocean", "contents":"<img src='./img/amazon_river_in_the_atlantic_ocean.jpg' width='150px'>"}
+    ]
+  }
+]} 

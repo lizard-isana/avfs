@@ -1,0 +1,42 @@
+{"Default":[
+    {
+       "article_id":"expedition31", 
+       "title": "ISS第31次長期滞在クルー",
+       "contents": "ISSの第31次長期滞在は2012年4月27日のSoyuz TMA-22のドッキング解除とともにスタートしました。第30次長期滞在のメンバーに加え、まもなく3人の新しいクルーが Soyuz TMA-04MでISSに到着します. <br/><br/><strong>クルー:</strong><br>船長: Oleg Kononenko<br/>フライトエンジニア: André Kuipers<br/>フライトエンジニア: Don Pettit<br/><a href='http://www.nasa.gov/mission_pages/station/expeditions/expedition31/index.html' target='_blank'>See details</a>"
+    },
+    {
+       "article_id":"map_blue_marble", 
+       "title": "Map: The Blue Marble Next Generation",
+       "contents": "“Blue Marble”はNASAが主に地球観測衛星TerraおよびAquaのMODISセンサから取得した画像を使って制作した高解像度の雲のない全地球画像です。もっとも精細なものは1ピクセルあたり500mの解像度を持ち、1ヶ月ごとの季節変化が記録された12枚のシリーズとなっています。本システムでは当該月の海洋の地形データを含む画像を使用しています。<br/><img src='./img/world_topo_bathy_thumbnail.jpg'><br/><a href='javascript:void(0)' onClick=AVfS.ChangeDataSet('default') >Change Map</a>"
+    },
+    {
+       "article_id":"map_global_ecco2", 
+       "title": "Map: Global Sea Surface Currents and Temperature(NASA/GSFC)",
+       "contents": "この地図は海流とその温度を示したものです。黄色から赤にかけて温度が高く、緑から青にかけて低くなっています。このシミュレーションはNASAジェット推進研究所が開発したECCO2とよばれる海洋循環モデルのデータを使用して製作されました。本来は動画で提供されていますが、本システムではその最終フレームを静止画として使用しています。 <br/><br/><img src='./img/global_ecco2_thumbnail.jpg'><br/><a href='javascript:void(0)' onClick=AVfS.ChangeDataSet('global_ecco2') >Change Map</a>"
+    },
+    {
+       "article_id":"map_fire_20120321", 
+       "title": "Map: Global Fire Map 03/21/2012 - 03/30/2012",
+       "contents": "この地図はNASAの地球観測衛星TerraとAquaに搭載されたMODISと呼ばれるセンサーが捉えた2012年3月の最終週の火事の分布です。赤が少なくとも1回の火事とおぼしき反応があった場所、黄色は複数回の反応があった場所です。ただし、周囲に比べて赤外線反応が高い場所を自動的に拾っているため火事以外の反応も多数含まれていることに注意してください。<br/><img src='./img/global_fire_map_thmbnail.jpg'><br/><a href='javascript:void(0)' onClick=AVfS.ChangeDataSet('fire_20120321') >Change Map</a>"
+    },
+    {
+       "article_id":"map_population_density", 
+       "title": "Map: Population Density 2000",
+       "contents": "これは、2000年の時点での人口密度を表した地図です。1km四方を1単位としてその密度を色で示しています。密度が大きいところほど赤く、色が濃くなっています。こうした全球単位での人口密度の把握は、淡水や森林資源、農地といった人間の環境資源の消費の影響を考える上で非常に重要な役割を果たします。各地域の大都市に赤いスポットがあるのがわかるでしょうか。また、インドや中国の一部のような非常に人口密度の高い地域と、それ以外の地域の差にも注目してみてください。<br/><img src='./img/population_density_thumbnail.jpg'><br/><a href='javascript:void(0)' onClick=AVfS.ChangeDataSet('population_density_2000') >Change Map</a>"
+    },
+    {
+       "article_id":"internatonal_cooperation_on_iss", 
+       "title": "国際宇宙ステーションでの国際協力",
+       "contents": "国際宇宙ステーションは多くの国々の協力のもとに運用されています。2012年4月の段階で参加機関はNASA(アメリカ)、Roscosmos(ロシア)、JAXA（日本）、CSA（カナダ）、ESA（ヨーロッパ）の5宇宙機関、11ヶ国が参加しています。<br/> <img src='http://www.nasa.gov/images/content/491603main_main_facilities_med_thum2.jpg' width='200'><br/><a href='http://www.nasa.gov/mission_pages/station/cooperation/index.html' target='_blank'>See details</a>"
+    },
+    {
+       "article_id":"about_earth", 
+       "title": "Earth",
+       "contents": "地球は太陽から3番目の惑星であり、太陽系の８つの惑星中もっとも密度が高く、５番目に大きな星です。また、岩石を主とする４つの地球型惑星（水星、金星、地球、火星）のなかでもっとも大きな星です。表面に大量の液体の水があり、多様な生命が存在することが大きな特徴です。<br/><br/>半径: 6,371.0 km<br/>表面積: 510,072,000 km<sup>2</sup><br/>質量: 5.9736×10<sup>24</sup>kg<br/>自転周期: 23h 56m 4.100s<br/><br/>大気組成:<br/>78.08% 窒素<br/>20.95% 酸素<br/>0.93% アルゴン<br/>0.038% 二酸化炭素<br/>約 1% 水蒸気（気候により変動）<br/><a href='http://en.wikipedia.org/wiki/Earth' target='_blank'>Earth - Wikipedia, the free encyclopedia</a> "
+    },
+    {
+       "article_id":"a_view_from_space", 
+       "title": "A View from Space",
+       "contents": "国際宇宙ステーションは、国家や思想の枠を超えて、私たちが共有できる数少ない「視点」の一つです。このサイト“A View from Space”はその視点をブラウザの中に再現することを目指しました。宇宙ステーションにいる宇宙飛行士たちと同じように、宇宙から地球を見下ろすたった一つの視点を共有しながら、この星のことに思いを馳せてみたいと思ったのです。<br/><br/>‎<em>最初の１日か２日は、みんなが自分の国を指していた。３日目、４日目は、それぞれ自分の大陸を指さした。５日目には私たちの念頭には、たった１つの地球しかなかった。<br/>- スルタン・ビン・サルマン・アルサウド / 宇宙飛行士</em>"
+    }
+]}
