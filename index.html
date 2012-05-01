@@ -6,11 +6,12 @@
 <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
 <link rel="stylesheet" type="text/css" href="base.css" title="default" />
 <body>
+<div id="message" style="position:absolute;bottom:0;left:0 ;margin:auto 0 .5em 1em;z-index:3100"></div>
 <div id="info" style="position:absolute;top:40px;z-index:3000" >
-  <div  style="float:left">    
+  <div  style="float:left;color:#bbb">    
     <form name="dataset">
-    Map: <select name="dataset" onChange="AVfS.ChangeDataSet(this[this.selectedIndex].value)">
-    <option value="default" name="default" selected>The Blue Marble</option>
+    Map: <select name="dataset" onChange="AVfS.ChangeDataSet(this[this.selectedIndex].value)"  style="color:#bbb;">
+    <option value="default" name="default" selected >The Blue Marble</option>
     <option value="global_ecco2" name="global_ecco2">Global Sea Surface Currents and Temperature</option>
     <option value="asst_2003" name="asst_2003">Average Sea Surface Temperature 2003 </option>
     <option value="land_surface_temperature_day_201202" name="land_surface_temperature_day_201202">Land Surface Temperature [Day] 2012.02</option>
@@ -34,22 +35,21 @@
   </div>
   -->
   <div id="indicator" style="clear:all;width:300px">
-    <div id="title"></div>
+    <div id="title" style="color:#bbb;"></div>
     <div id="description"></div>
     <div id="iss" style="margin-top:1em"></div>
     <div id="article" style="margin-top:1em"></div>
   </div>
 </div>
+<div id="timeline" style="position:absolute;top:0;right:0;width:300px;margin:0 0 .5em 1em;height:80%; overflow:hidden;z-index:2100;visibility:hidden"></div>
+<div id="tweet_box" style="position:absolute;bottom:0;right:0;z-index:2000;visibility:hidden"></div>
 
-<div id="timeline" style="position:absolute;top:0;right:0;width:300px;margin:0 0 .5em 1em;height:80%; overflow:hidden;z-index:2100;visibility:visible"></div>
-<div id="tweet_box" style="position:absolute;bottom:0;right:0;z-index:2000;visibility:visible"></div>
+<div id="menu" style="position:absolute;top:0;left:0;width:500px;height:40px;z-index:2200"><img src="./lib/image/logo_white.png"><a href="javascript:void(0)" onClick="AVfS.ToggleSocial()"><img src="./lib/image/social.png" alt="social panel"></a><!--<img src="./lib/image/settings.png"><img src="./lib/image/help.png">--></div>
 
-<div id="menu" style="position:absolute;top:0;left:0;width:500px;height:40px;z-index:2200"><img src="./lib/image/logo.png"><a href="javascript:void(0)" onClick="AVfS.ToggleSocial()"><img src="./lib/image/social.png" alt="social panel"></a><!--<img src="./lib/image/settings.png"><img src="./lib/image/help.png">--></div>
-
-<div id="label_container"><canvas id="label_layer"></canvas></div style="1000">
+<canvas id="orbit_layer"  style="z-index:1500"></canvas>    
+<canvas id="label_layer"  style="z-index:1000"></canvas>
 <div id="contents_layer" style="z-index:100"></div>
-<div id="container" style="z-index:10"></div>
-<div id="message" style="position:absolute;bottom:0;left:0 ;margin:auto 0 .5em 1em"></div>
+<div id="globe_layer" style="z-index:10"></div>
 <script src="./lib/three.js"></script>
 <script src="./lib/core.js"></script>
 <script src="./lib/satellite.js"></script>
