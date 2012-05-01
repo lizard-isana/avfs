@@ -7,22 +7,12 @@
   },
   {
     "article_id":"surprising_arctic_methane_emission_source",
-<<<<<<< HEAD
-    "map":["all"],
-    "theme":["all"],
-=======
->>>>>>> 28333f6d8f09dff9737ef45249b7bb55f5b2bf8e
     "region":[["N60","E0"],["N60","E30"],["N60","E60"],["N60","E90"],["N60","E120"],["N60","E150"],["N60","W180"],["N60","W150"],["N60","W120"],["N60","W90"],["N60","W60"],["N60","W30"],["S30","E0"],["S30","E30"],["S30","E60"],["S30","E90"],["S30","E120"],["S30","E150"],["S30","W180"],["S30","W150"],["S30","W120"],["S30","W90"],["S30","W60"],["S30","W30"]], 
     "title": "Study Finds Surprising Arctic Methane Emission Source 04.22.12  (NASA)",
     "contents": "A new airborne study with NASA contributions measured surprising levels of the potent greenhouse gas methane coming from cracks in Arctic sea ice and areas of partial sea ice cover. <br/><img src='./img/640892main_earth20120422-673.jpg'><br/><a href='http://www.nasa.gov/topics/earth/features/earth20120422.html' target='_blank'>See details...</a>"
   },
   {
     "article_id":"indian_ocean_tsunami",
-<<<<<<< HEAD
-    "map":["all"],
-    "theme":["all"],
-=======
->>>>>>> 28333f6d8f09dff9737ef45249b7bb55f5b2bf8e
     "region":[["N30","E60"],["S0","E60"]], 
     "plot":[
       {"latitude":17.688378, "longitude":83.218758, "label":"Tsunami on Indean Ocean", "contents":"<img src='./img/106168main_pia04372-516' width='150'>"}
@@ -41,11 +31,6 @@
   },
   {
     "article_id":"coccolithophores_around_the_bering_sea",
-<<<<<<< HEAD
-    "map":["all"],
-    "theme":["all"],
-=======
->>>>>>> 28333f6d8f09dff9737ef45249b7bb55f5b2bf8e
     "region":[["N90","E150"], ["N90","W180"],["N60","E150"], ["N60","W180"]],
     "plot":[
       {"latitude":58.470721, "longitude":-163.168945, "label":"Coccolithophore Bloom", "contents":"<img src='./img/bering_bloom_2000.jpg' width='150'>"}
@@ -138,14 +123,10 @@
     "article_id":"fire_in_kuwait",
     "region":[["N30", "E60"],["N60", "E60"]],
     "plot":[
-      {"latitude":29.334298, "longitude":47.702637, "label":"Fire in Kuwait", "contents":"<img src='./img/yellow_sea_fog_2012088.jpg' width='150'>"}
+      {"latitude":29.334298, "longitude":47.702637, "label":"Fire in Kuwait", "contents":"<img src='./img/fire_in_kuwait.png' width='150'>"}
     ],
     "title":"Fire in Kuwait: April 18, 2012 (NASA/Earth Observatory)",
-    "contents":"On April 17, 2012, a fire broke out in a tire dump near Al Jahrah, Kuwait. Agence France-Presse reported that the fire was fueled by about five million tires. Hundreds of firefighters, aided by soldiers and by employees of the Kuwait Oil Company, struggled to contain the blaze. The Kuwait News Agency reported that the nation’s Fire Services Directorate expected to have the fire completely extinguished later that day.<br/><img src='./img/fire_in_kuwait.jpg'><br/><a href='http://earthobservatory.nasa.gov/IOTD/view.php?id=77678' target='_blank'>See details</a>"
-<<<<<<< HEAD
-  }
-
-=======
+    "contents":"On April 17, 2012, a fire broke out in a tire dump near Al Jahrah, Kuwait. Agence France-Presse reported that the fire was fueled by about five million tires. Hundreds of firefighters, aided by soldiers and by employees of the Kuwait Oil Company, struggled to contain the blaze. The Kuwait News Agency reported that the nation’s Fire Services Directorate expected to have the fire completely extinguished later that day.<br/><img src='./img/fire_in_kuwait.png'><br/><a href='http://earthobservatory.nasa.gov/IOTD/view.php?id=77678' target='_blank'>See details</a>"
   },
   {
     "article_id":"ice_floes_along_the_kamchatka_coastline",
@@ -192,5 +173,4 @@
     {"latitude":2.372369, "longitude":-46.318359, "label":"Amazon River in the Atlantic Ocean", "contents":"<img src='./img/amazon_river_in_the_atlantic_ocean.jpg' width='150px'>"}
     ]
   }
->>>>>>> 28333f6d8f09dff9737ef45249b7bb55f5b2bf8e
 ]} 

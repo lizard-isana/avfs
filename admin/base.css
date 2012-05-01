@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
   color: #808080;
   font-family:'Lucida Grande', Verdana, Helvetica, sans-serif;
@@ -37,3 +38,44 @@ select  {
 option {
    background: transparent no-repeat;
 }
+=======
+body {
+  color: #808080;
+  font-family:'Lucida Grande', Verdana, Helvetica, sans-serif;
+  font-size:13px;
+  background-color: #000;
+  margin: 5px;
+  overflow: hidden;
+}
+#label_layer{
+ position: absolute;
+}
+#contents_layer{
+ position: absolute;
+}
+
+#info {
+position: absolute;
+top: 0px;
+width: 100%;
+height:100%
+padding: 5px;
+}
+
+#article img{
+margin: 0.5em auto 0.5em auto;
+}
+
+a {
+color: #6699CC;
+}
+
+select  {
+    border:solid 1px #333;
+    color:#808080;
+    background: transparent no-repeat;
+}
+option {
+   background: transparent no-repeat;
+}
+>>>>>>> 28333f6d8f09dff9737ef45249b7bb55f5b2bf8e

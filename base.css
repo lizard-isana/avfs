@@ -6,6 +6,12 @@ body {
   margin: 5px;
   overflow: hidden;
 }
+#orbit_layer{
+ position: absolute;
+}
+#globe_layer{
+ position: absolute;
+}
 #label_layer{
  position: absolute;
 }
@@ -23,6 +29,10 @@ padding: 5px;
 
 #article img{
 margin: 0.5em auto 0.5em auto;
+}
+
+.plot img{
+  border: 1px solid #808080;
 }
 
 a {
